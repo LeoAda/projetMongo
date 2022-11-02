@@ -16,7 +16,7 @@
    ```sh
     type nul > .env
     ```
-3. Add following value to .env file for MongoDB
+3. Add following value to .env file for MongoDB Atlas
     ```sh
     MONGO_USERNAME = ""
     MONGO_PASSWORD = ""
