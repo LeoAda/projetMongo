@@ -3,8 +3,8 @@
         "datasetid": "vlille-realtime",
         "recordid": "2f98f2e1ee73e414cf64bae428caa96ba114be23",
         "fields": {
-            "nbvelosdispo": 7,
-            "nbplacesdispo": 12,
+            "nbvelosdispo": 5,
+            "nbplacesdispo": 14,
             "libelle": 30,
             "adresse": "8 PLACE DE GAND",
             "nom": "RUE DE GAND",
@@ -20,7 +20,7 @@
                 50.64297,
                 3.067375
             ],
-            "datemiseajour": "2022-11-02T20:36:58+00:00"
+            "datemiseajour": "2022-11-02T21:22:44+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -29,7 +29,7 @@
                 50.64297
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -52,7 +52,7 @@
                 50.6258,
                 3.14862
             ],
-            "datemiseajour": "2022-11-02T20:37:00+00:00"
+            "datemiseajour": "2022-11-02T21:22:46+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -61,7 +61,7 @@
                 50.6258
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -84,7 +84,7 @@
                 50.637709,
                 3.077478
             ],
-            "datemiseajour": "2022-11-02T20:37:00+00:00"
+            "datemiseajour": "2022-11-02T21:22:46+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -93,14 +93,14 @@
                 50.637709
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
         "recordid": "256e3162a750634ac072e7f14a5b0149693581de",
         "fields": {
-            "nbvelosdispo": 6,
-            "nbplacesdispo": 12,
+            "nbvelosdispo": 8,
+            "nbplacesdispo": 10,
             "libelle": 35,
             "adresse": "24 PLACE MARECHAL LECLERC",
             "nom": "LECLERC",
@@ -116,7 +116,7 @@
                 50.62899,
                 3.043307
             ],
-            "datemiseajour": "2022-11-02T20:36:59+00:00"
+            "datemiseajour": "2022-11-02T21:22:44+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -125,14 +125,14 @@
                 50.62899
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
         "recordid": "6d540b30f23f2b2d9d30729218991d2f432db89b",
         "fields": {
-            "nbvelosdispo": 5,
-            "nbplacesdispo": 11,
+            "nbvelosdispo": 6,
+            "nbplacesdispo": 10,
             "libelle": 41,
             "adresse": "681 AVENUE DE LA REPUBLIQUE",
             "nom": "BUISSON",
@@ -148,7 +148,7 @@
                 50.656487,
                 3.088004
             ],
-            "datemiseajour": "2022-11-02T20:36:59+00:00"
+            "datemiseajour": "2022-11-02T21:22:44+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -157,7 +157,7 @@
                 50.656487
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -180,7 +180,7 @@
                 50.629063,
                 3.053711
             ],
-            "datemiseajour": "2022-11-02T20:36:59+00:00"
+            "datemiseajour": "2022-11-02T21:22:44+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -189,14 +189,14 @@
                 50.629063
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
         "recordid": "4c82424545ef1eb11a3aad1889c4cda98ef587e2",
         "fields": {
-            "nbvelosdispo": 12,
-            "nbplacesdispo": 4,
+            "nbvelosdispo": 11,
+            "nbplacesdispo": 5,
             "libelle": 147,
             "adresse": "2 RUE MARCEL H\u00c9NAUX",
             "nom": "FAUBOURG D'ARRAS",
@@ -212,7 +212,7 @@
                 50.614052,
                 3.062195
             ],
-            "datemiseajour": "2022-11-02T20:37:00+00:00"
+            "datemiseajour": "2022-11-02T21:22:46+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -221,7 +221,7 @@
                 50.614052
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -244,7 +244,7 @@
                 50.661602,
                 3.050322
             ],
-            "datemiseajour": "2022-11-02T20:37:00+00:00"
+            "datemiseajour": "2022-11-02T21:22:46+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -253,14 +253,14 @@
                 50.661602
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
         "recordid": "109068ede961983697d353e26d9f598979bf4525",
         "fields": {
-            "nbvelosdispo": 1,
-            "nbplacesdispo": 22,
+            "nbvelosdispo": 2,
+            "nbplacesdispo": 21,
             "libelle": 55,
             "adresse": "3 PLACE JACQUES FEBVRIER",
             "nom": "PORTE D'ARRAS",
@@ -276,7 +276,7 @@
                 50.617847,
                 3.061758
             ],
-            "datemiseajour": "2022-11-02T20:36:59+00:00"
+            "datemiseajour": "2022-11-02T21:22:44+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -285,14 +285,14 @@
                 50.617847
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
         "recordid": "eab5f05c67fb7a42aaeea1acfab773c249227b32",
         "fields": {
-            "nbvelosdispo": 7,
-            "nbplacesdispo": 5,
+            "nbvelosdispo": 9,
+            "nbplacesdispo": 3,
             "libelle": 85,
             "adresse": "58 RUE CHANZY",
             "nom": "CHANZY",
@@ -308,7 +308,7 @@
                 50.62504,
                 3.1008
             ],
-            "datemiseajour": "2022-11-02T20:36:59+00:00"
+            "datemiseajour": "2022-11-02T21:22:44+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -317,14 +317,14 @@
                 50.62504
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
         "recordid": "f68d283012c2dc704b3fb8fcb1557baddfe3abde",
         "fields": {
-            "nbvelosdispo": 4,
-            "nbplacesdispo": 16,
+            "nbvelosdispo": 5,
+            "nbplacesdispo": 15,
             "libelle": 90,
             "adresse": "1 RUE DU DIEU DE MARCQ",
             "nom": "LOUVIERE",
@@ -340,7 +340,7 @@
                 50.64569,
                 3.0858226
             ],
-            "datemiseajour": "2022-11-02T20:36:59+00:00"
+            "datemiseajour": "2022-11-02T21:22:44+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -349,7 +349,7 @@
                 50.64569
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -372,7 +372,7 @@
                 50.63529,
                 3.115088
             ],
-            "datemiseajour": "2022-11-02T20:36:59+00:00"
+            "datemiseajour": "2022-11-02T21:22:44+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -381,7 +381,7 @@
                 50.63529
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -404,7 +404,7 @@
                 50.63378,
                 3.02059
             ],
-            "datemiseajour": "2022-11-02T20:36:59+00:00"
+            "datemiseajour": "2022-11-02T21:22:44+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -413,7 +413,7 @@
                 50.63378
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -436,7 +436,7 @@
                 50.64543,
                 3.075116
             ],
-            "datemiseajour": "2022-11-02T20:36:59+00:00"
+            "datemiseajour": "2022-11-02T21:22:45+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -445,7 +445,7 @@
                 50.64543
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -468,7 +468,7 @@
                 50.64218,
                 3.109699
             ],
-            "datemiseajour": "2022-11-02T20:36:59+00:00"
+            "datemiseajour": "2022-11-02T21:22:45+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -477,14 +477,14 @@
                 50.64218
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
         "recordid": "82bfe9a537b6f67b814b617d7949b409081facda",
         "fields": {
-            "nbvelosdispo": 11,
-            "nbplacesdispo": 21,
+            "nbvelosdispo": 9,
+            "nbplacesdispo": 23,
             "libelle": 11,
             "adresse": "10 RUE DE PAS",
             "nom": "NOUVEAU SIECLE",
@@ -500,7 +500,7 @@
                 50.63734,
                 3.060977
             ],
-            "datemiseajour": "2022-11-02T20:36:58+00:00"
+            "datemiseajour": "2022-11-02T21:22:43+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -509,14 +509,14 @@
                 50.63734
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
         "recordid": "dd491fe18c23abd77bfc54553d233e0c1fb91bcc",
         "fields": {
-            "nbvelosdispo": 7,
-            "nbplacesdispo": 11,
+            "nbvelosdispo": 8,
+            "nbplacesdispo": 10,
             "libelle": 13,
             "adresse": "17 SQUARE DUTILLEUL",
             "nom": "QUAI DU WAULT",
@@ -532,7 +532,7 @@
                 50.63671,
                 3.054773
             ],
-            "datemiseajour": "2022-11-02T20:36:58+00:00"
+            "datemiseajour": "2022-11-02T21:22:43+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -541,7 +541,7 @@
                 50.63671
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -564,7 +564,7 @@
                 50.69138,
                 3.17966
             ],
-            "datemiseajour": "2022-11-02T20:37:01+00:00"
+            "datemiseajour": "2022-11-02T21:22:46+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -573,7 +573,7 @@
                 50.69138
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -596,7 +596,7 @@
                 50.664211,
                 3.130098
             ],
-            "datemiseajour": "2022-11-02T20:37:01+00:00"
+            "datemiseajour": "2022-11-02T21:22:47+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -605,14 +605,14 @@
                 50.664211
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
         "recordid": "f0fa6058ad11ed23fb7d9898c546d1d376cda19a",
         "fields": {
-            "nbvelosdispo": 9,
-            "nbplacesdispo": 7,
+            "nbvelosdispo": 11,
+            "nbplacesdispo": 6,
             "libelle": 97,
             "adresse": "250 RUE GENERAL DE GAULLE",
             "nom": "LA MADELEINE GARE",
@@ -628,7 +628,7 @@
                 50.65937,
                 3.074057
             ],
-            "datemiseajour": "2022-11-02T20:36:59+00:00"
+            "datemiseajour": "2022-11-02T21:22:45+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -637,14 +637,14 @@
                 50.65937
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
         "recordid": "7d59e538ad770fce77d8dd767daf4b1f4fcaeab4",
         "fields": {
-            "nbvelosdispo": 3,
-            "nbplacesdispo": 21,
+            "nbvelosdispo": 4,
+            "nbplacesdispo": 20,
             "libelle": 100,
             "adresse": "260 AVENUE DE LA REPUBLIQUE",
             "nom": "SAINT MAUR",
@@ -660,7 +660,7 @@
                 50.651638,
                 3.081625
             ],
-            "datemiseajour": "2022-11-02T20:36:59+00:00"
+            "datemiseajour": "2022-11-02T21:22:45+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -669,14 +669,14 @@
                 50.651638
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
         "recordid": "fdd36680ce4f06b3c7eeb59f0c7b76d40def9fbe",
         "fields": {
-            "nbvelosdispo": 6,
-            "nbplacesdispo": 10,
+            "nbvelosdispo": 8,
+            "nbplacesdispo": 8,
             "libelle": 110,
             "adresse": "11 RUE BONTE POLLET",
             "nom": "RUE BONTE-POLLET",
@@ -692,7 +692,7 @@
                 50.62487,
                 3.034234
             ],
-            "datemiseajour": "2022-11-02T20:36:59+00:00"
+            "datemiseajour": "2022-11-02T21:22:45+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -701,7 +701,7 @@
                 50.62487
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -724,7 +724,7 @@
                 50.65547,
                 3.064989
             ],
-            "datemiseajour": "2022-11-02T20:37:00+00:00"
+            "datemiseajour": "2022-11-02T21:22:46+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -733,7 +733,7 @@
                 50.65547
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -756,7 +756,7 @@
                 50.646418,
                 3.106625
             ],
-            "datemiseajour": "2022-11-02T20:37:00+00:00"
+            "datemiseajour": "2022-11-02T21:22:46+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -765,7 +765,7 @@
                 50.646418
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -788,7 +788,7 @@
                 50.658146,
                 3.042003
             ],
-            "datemiseajour": "2022-11-02T20:37:00+00:00"
+            "datemiseajour": "2022-11-02T21:22:46+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -797,7 +797,7 @@
                 50.658146
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -820,7 +820,7 @@
                 50.677914,
                 3.162353
             ],
-            "datemiseajour": "2022-11-02T20:37:00+00:00"
+            "datemiseajour": "2022-11-02T21:22:46+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -829,7 +829,7 @@
                 50.677914
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -840,9 +840,9 @@
             "libelle": 245,
             "adresse": "126, RUE VERTE",
             "nom": "JARDIN BOTANIQUE",
-            "etat": "HORS SERVICE",
+            "etat": "EN SERVICE",
             "commune": "TOURCOING",
-            "etatconnexion": "DISCONNECTED",
+            "etatconnexion": "CONNECTED",
             "type": "AVEC TPE",
             "geo": [
                 50.724581,
@@ -852,7 +852,7 @@
                 50.724581,
                 3.166122
             ],
-            "datemiseajour": "2022-11-02T20:37:01+00:00"
+            "datemiseajour": "2022-11-02T21:22:47+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -861,7 +861,7 @@
                 50.724581
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -884,7 +884,7 @@
                 50.6875,
                 3.1585592
             ],
-            "datemiseajour": "2022-11-02T20:37:01+00:00"
+            "datemiseajour": "2022-11-02T21:22:47+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -893,14 +893,14 @@
                 50.6875
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
         "recordid": "8f426a972867494c3eea897e602f8eb3f0cc5040",
         "fields": {
-            "nbvelosdispo": 6,
-            "nbplacesdispo": 14,
+            "nbvelosdispo": 7,
+            "nbplacesdispo": 13,
             "libelle": 302,
             "adresse": "Rue Roger Salengro",
             "nom": "FACHES THUMESNIL MAIRIE",
@@ -916,7 +916,7 @@
                 50.60301,
                 3.06925
             ],
-            "datemiseajour": "2022-11-02T20:37:01+00:00"
+            "datemiseajour": "2022-11-02T21:22:47+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -925,7 +925,7 @@
                 50.60301
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -948,7 +948,7 @@
                 50.60709,
                 3.06558
             ],
-            "datemiseajour": "2022-11-02T20:37:01+00:00"
+            "datemiseajour": "2022-11-02T21:22:47+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -957,14 +957,14 @@
                 50.60709
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
         "recordid": "dec5d5d647cbf6109edd89007f17c94748aab27d",
         "fields": {
-            "nbvelosdispo": 8,
-            "nbplacesdispo": 6,
+            "nbvelosdispo": 6,
+            "nbplacesdispo": 8,
             "libelle": 165,
             "adresse": "68 RUE JEAN SANS PEUR",
             "nom": "JEAN SANS PEUR",
@@ -980,7 +980,7 @@
                 50.632367,
                 3.05816
             ],
-            "datemiseajour": "2022-11-02T20:37:00+00:00"
+            "datemiseajour": "2022-11-02T21:22:46+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -989,14 +989,14 @@
                 50.632367
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
         "recordid": "e76138729b09a25cec4020ec405ca46807ef3d1d",
         "fields": {
-            "nbvelosdispo": 7,
-            "nbplacesdispo": 5,
+            "nbvelosdispo": 6,
+            "nbplacesdispo": 6,
             "libelle": 172,
             "adresse": "Rue de la Seine",
             "nom": "PLACE DE LA GARONNE",
@@ -1012,7 +1012,7 @@
                 50.612635,
                 3.059261
             ],
-            "datemiseajour": "2022-11-02T20:37:00+00:00"
+            "datemiseajour": "2022-11-02T21:22:46+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -1021,7 +1021,7 @@
                 50.612635
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -1044,7 +1044,7 @@
                 50.730289,
                 3.167723
             ],
-            "datemiseajour": "2022-11-02T20:37:01+00:00"
+            "datemiseajour": "2022-11-02T21:22:47+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -1053,7 +1053,7 @@
                 50.730289
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -1076,7 +1076,7 @@
                 50.716843,
                 3.167834
             ],
-            "datemiseajour": "2022-11-02T20:37:01+00:00"
+            "datemiseajour": "2022-11-02T21:22:47+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -1085,14 +1085,14 @@
                 50.716843
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
         "recordid": "f1d6a8c72a33b55c05e2a52d0a8c0cbfcac7cd6d",
         "fields": {
-            "nbvelosdispo": 24,
-            "nbplacesdispo": 8,
+            "nbvelosdispo": 20,
+            "nbplacesdispo": 12,
             "libelle": 51,
             "adresse": "2 RUE CAMBRAI",
             "nom": "JB LEBAS",
@@ -1108,7 +1108,7 @@
                 50.62482,
                 3.068689
             ],
-            "datemiseajour": "2022-11-02T20:36:59+00:00"
+            "datemiseajour": "2022-11-02T21:22:44+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -1117,14 +1117,14 @@
                 50.62482
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
         "recordid": "1c40a51de3159c393595f182afeeedff35e73d8b",
         "fields": {
-            "nbvelosdispo": 9,
-            "nbplacesdispo": 7,
+            "nbvelosdispo": 8,
+            "nbplacesdispo": 8,
             "libelle": 32,
             "adresse": "15 RUE DE COURTRAI",
             "nom": "PLACE AUX BLEUETS",
@@ -1140,7 +1140,7 @@
                 50.64142,
                 3.067873
             ],
-            "datemiseajour": "2022-11-02T20:36:58+00:00"
+            "datemiseajour": "2022-11-02T21:22:44+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -1149,7 +1149,7 @@
                 50.64142
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -1172,7 +1172,7 @@
                 50.62633,
                 3.05659
             ],
-            "datemiseajour": "2022-11-02T20:36:59+00:00"
+            "datemiseajour": "2022-11-02T21:22:44+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -1181,7 +1181,7 @@
                 50.62633
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -1204,7 +1204,7 @@
                 50.609592,
                 3.075483
             ],
-            "datemiseajour": "2022-11-02T20:37:00+00:00"
+            "datemiseajour": "2022-11-02T21:22:46+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -1213,7 +1213,7 @@
                 50.609592
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -1236,7 +1236,7 @@
                 50.672415,
                 3.0924237
             ],
-            "datemiseajour": "2022-11-02T20:37:00+00:00"
+            "datemiseajour": "2022-11-02T21:22:46+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -1245,14 +1245,14 @@
                 50.672415
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
         "recordid": "2bfc2b1ceb6b8acd4faf42b59bf8d638d5f2ed2b",
         "fields": {
-            "nbvelosdispo": 4,
-            "nbplacesdispo": 14,
+            "nbvelosdispo": 2,
+            "nbplacesdispo": 16,
             "libelle": 56,
             "adresse": "214 BOULEVARD VICTOR HUGO",
             "nom": "BD VICTOR HUGO",
@@ -1268,7 +1268,7 @@
                 50.620304,
                 3.055471
             ],
-            "datemiseajour": "2022-11-02T20:36:59+00:00"
+            "datemiseajour": "2022-11-02T21:22:44+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -1277,7 +1277,7 @@
                 50.620304
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -1300,7 +1300,7 @@
                 50.63424,
                 3.073991
             ],
-            "datemiseajour": "2022-11-02T20:36:59+00:00"
+            "datemiseajour": "2022-11-02T21:22:44+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -1309,14 +1309,14 @@
                 50.63424
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
         "recordid": "a4c838ce99c51e427d5abf18dc92b5d0fe2a0b80",
         "fields": {
-            "nbvelosdispo": 4,
-            "nbplacesdispo": 21,
+            "nbvelosdispo": 6,
+            "nbplacesdispo": 19,
             "libelle": 91,
             "adresse": "95 RUE DE LANNOY",
             "nom": "SQUARE DES MERES",
@@ -1332,7 +1332,7 @@
                 50.63417,
                 3.095958
             ],
-            "datemiseajour": "2022-11-02T20:36:59+00:00"
+            "datemiseajour": "2022-11-02T21:22:44+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -1341,7 +1341,7 @@
                 50.63417
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -1364,7 +1364,7 @@
                 50.628918,
                 3.088147
             ],
-            "datemiseajour": "2022-11-02T20:36:59+00:00"
+            "datemiseajour": "2022-11-02T21:22:44+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -1373,14 +1373,14 @@
                 50.628918
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
         "recordid": "a7d96746205e7ab71316b1504e6a895b60c1ef7f",
         "fields": {
-            "nbvelosdispo": 7,
-            "nbplacesdispo": 17,
+            "nbvelosdispo": 8,
+            "nbplacesdispo": 16,
             "libelle": 15,
             "adresse": "PONT DU PETIT PARADIS",
             "nom": "ESPLANADE",
@@ -1396,7 +1396,7 @@
                 50.6449,
                 3.050645
             ],
-            "datemiseajour": "2022-11-02T20:36:58+00:00"
+            "datemiseajour": "2022-11-02T21:22:43+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -1405,7 +1405,7 @@
                 50.6449
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -1428,7 +1428,7 @@
                 50.630834,
                 3.013247
             ],
-            "datemiseajour": "2022-11-02T20:37:00+00:00"
+            "datemiseajour": "2022-11-02T21:22:46+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -1437,14 +1437,14 @@
                 50.630834
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
         "recordid": "04938910f0eeac26baf907ec01989426a13f40dd",
         "fields": {
-            "nbvelosdispo": 18,
-            "nbplacesdispo": 0,
+            "nbvelosdispo": 17,
+            "nbplacesdispo": 1,
             "libelle": 57,
             "adresse": "FACE AU 52 RUE BARTHELEMY DELESPAUL",
             "nom": "BARTHELEMY DELESPAUL",
@@ -1460,7 +1460,7 @@
                 50.62418,
                 3.058902
             ],
-            "datemiseajour": "2022-11-02T20:36:59+00:00"
+            "datemiseajour": "2022-11-02T21:22:44+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -1469,14 +1469,14 @@
                 50.62418
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
         "recordid": "08f6a4b289a4f581eca23cc1ba45d022c93e3c55",
         "fields": {
-            "nbvelosdispo": 16,
-            "nbplacesdispo": 8,
+            "nbvelosdispo": 15,
+            "nbplacesdispo": 9,
             "libelle": 76,
             "adresse": "123 RUE PIERRE LEGRAND",
             "nom": "FIVES",
@@ -1492,7 +1492,7 @@
                 50.632996,
                 3.089651
             ],
-            "datemiseajour": "2022-11-02T20:36:59+00:00"
+            "datemiseajour": "2022-11-02T21:22:44+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -1501,7 +1501,7 @@
                 50.632996
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -1524,7 +1524,7 @@
                 50.615536,
                 3.048518
             ],
-            "datemiseajour": "2022-11-02T20:36:59+00:00"
+            "datemiseajour": "2022-11-02T21:22:44+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -1533,14 +1533,14 @@
                 50.615536
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
         "recordid": "d3787d31f69c5339cb5b6379ab686389db0e0f96",
         "fields": {
-            "nbvelosdispo": 11,
-            "nbplacesdispo": 9,
+            "nbvelosdispo": 12,
+            "nbplacesdispo": 8,
             "libelle": 79,
             "adresse": "65 RUE DU FAUBOURG DES POSTES",
             "nom": "CIMETIERE DU SUD",
@@ -1556,7 +1556,7 @@
                 50.61295,
                 3.047268
             ],
-            "datemiseajour": "2022-11-02T20:36:59+00:00"
+            "datemiseajour": "2022-11-02T21:22:44+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -1565,7 +1565,7 @@
                 50.61295
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -1588,7 +1588,7 @@
                 50.666033,
                 3.087591
             ],
-            "datemiseajour": "2022-11-02T20:37:00+00:00"
+            "datemiseajour": "2022-11-02T21:22:45+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -1597,7 +1597,7 @@
                 50.666033
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -1620,7 +1620,7 @@
                 50.62903,
                 3.10295
             ],
-            "datemiseajour": "2022-11-02T20:36:59+00:00"
+            "datemiseajour": "2022-11-02T21:22:44+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -1629,7 +1629,7 @@
                 50.62903
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -1652,7 +1652,7 @@
                 50.651337,
                 3.08945
             ],
-            "datemiseajour": "2022-11-02T20:36:59+00:00"
+            "datemiseajour": "2022-11-02T21:22:45+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -1661,7 +1661,7 @@
                 50.651337
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -1684,7 +1684,7 @@
                 50.62577,
                 3.144714
             ],
-            "datemiseajour": "2022-11-02T20:37:00+00:00"
+            "datemiseajour": "2022-11-02T21:22:46+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -1693,7 +1693,7 @@
                 50.62577
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -1716,7 +1716,7 @@
                 50.669867,
                 3.131048
             ],
-            "datemiseajour": "2022-11-02T20:37:01+00:00"
+            "datemiseajour": "2022-11-02T21:22:47+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -1725,14 +1725,14 @@
                 50.669867
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
         "recordid": "754a931e6efd842be2ae63a3c1ace9eca19b9bbc",
         "fields": {
-            "nbvelosdispo": 7,
-            "nbplacesdispo": 5,
+            "nbvelosdispo": 8,
+            "nbplacesdispo": 4,
             "libelle": 188,
             "adresse": "17 rue Louis Braille",
             "nom": "LOUIS BRAILLE",
@@ -1748,7 +1748,7 @@
                 50.637103,
                 3.097538
             ],
-            "datemiseajour": "2022-11-02T20:37:00+00:00"
+            "datemiseajour": "2022-11-02T21:22:46+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -1757,7 +1757,7 @@
                 50.637103
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -1780,7 +1780,7 @@
                 50.679123,
                 3.155906
             ],
-            "datemiseajour": "2022-11-02T20:37:00+00:00"
+            "datemiseajour": "2022-11-02T21:22:46+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -1789,7 +1789,7 @@
                 50.679123
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -1812,7 +1812,7 @@
                 50.691406,
                 3.162704
             ],
-            "datemiseajour": "2022-11-02T20:37:01+00:00"
+            "datemiseajour": "2022-11-02T21:22:47+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -1821,7 +1821,7 @@
                 50.691406
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -1844,7 +1844,7 @@
                 50.683987,
                 3.16327
             ],
-            "datemiseajour": "2022-11-02T20:37:01+00:00"
+            "datemiseajour": "2022-11-02T21:22:47+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -1853,7 +1853,7 @@
                 50.683987
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -1876,7 +1876,7 @@
                 50.67869,
                 3.172558
             ],
-            "datemiseajour": "2022-11-02T20:37:01+00:00"
+            "datemiseajour": "2022-11-02T21:22:46+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -1885,7 +1885,7 @@
                 50.67869
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -1908,7 +1908,7 @@
                 50.728798,
                 3.158835
             ],
-            "datemiseajour": "2022-11-02T20:37:01+00:00"
+            "datemiseajour": "2022-11-02T21:22:47+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -1917,7 +1917,7 @@
                 50.728798
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -1940,7 +1940,7 @@
                 50.67441,
                 3.14721
             ],
-            "datemiseajour": "2022-11-02T20:37:01+00:00"
+            "datemiseajour": "2022-11-02T21:22:47+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -1949,7 +1949,7 @@
                 50.67441
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -1972,7 +1972,7 @@
                 50.6967934,
                 3.1684926
             ],
-            "datemiseajour": "2022-11-02T20:37:01+00:00"
+            "datemiseajour": "2022-11-02T21:22:47+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -1981,7 +1981,7 @@
                 50.6967934
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -2004,7 +2004,7 @@
                 50.676944,
                 3.167306
             ],
-            "datemiseajour": "2022-11-02T20:37:01+00:00"
+            "datemiseajour": "2022-11-02T21:22:47+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -2013,7 +2013,7 @@
                 50.676944
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -2036,7 +2036,7 @@
                 50.611307,
                 2.994654
             ],
-            "datemiseajour": "2022-11-02T20:37:01+00:00"
+            "datemiseajour": "2022-11-02T21:22:47+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -2045,14 +2045,14 @@
                 50.611307
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
         "recordid": "278aa9df0906af6bc3cd29b5d3c3d9dd2e397ee8",
         "fields": {
-            "nbvelosdispo": 9,
-            "nbplacesdispo": 27,
+            "nbvelosdispo": 7,
+            "nbplacesdispo": 29,
             "libelle": 9,
             "adresse": "18 RUE DE TOUL",
             "nom": "RUE DE TOUL",
@@ -2068,7 +2068,7 @@
                 50.63393,
                 3.044986
             ],
-            "datemiseajour": "2022-11-02T20:36:58+00:00"
+            "datemiseajour": "2022-11-02T21:22:43+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -2077,7 +2077,7 @@
                 50.63393
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -2100,7 +2100,7 @@
                 50.615246,
                 3.018435
             ],
-            "datemiseajour": "2022-11-02T20:37:00+00:00"
+            "datemiseajour": "2022-11-02T21:22:46+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -2109,7 +2109,7 @@
                 50.615246
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -2132,7 +2132,7 @@
                 50.72075,
                 3.152659
             ],
-            "datemiseajour": "2022-11-02T20:37:01+00:00"
+            "datemiseajour": "2022-11-02T21:22:47+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -2141,14 +2141,14 @@
                 50.72075
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
         "recordid": "96288bed7761fcf4f78409acd2968b89a1b24640",
         "fields": {
-            "nbvelosdispo": 16,
-            "nbplacesdispo": 15,
+            "nbvelosdispo": 17,
+            "nbplacesdispo": 14,
             "libelle": 2,
             "adresse": "RUE DU PORT BD VAUBAN",
             "nom": "UNIVERSITE CATHOLIQUE",
@@ -2164,7 +2164,7 @@
                 50.632233,
                 3.046134
             ],
-            "datemiseajour": "2022-11-02T20:36:58+00:00"
+            "datemiseajour": "2022-11-02T21:22:43+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -2173,7 +2173,7 @@
                 50.632233
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -2196,7 +2196,7 @@
                 50.624695,
                 3.048961
             ],
-            "datemiseajour": "2022-11-02T20:36:58+00:00"
+            "datemiseajour": "2022-11-02T21:22:43+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -2205,14 +2205,14 @@
                 50.624695
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
         "recordid": "08feaa8d3fc91960503876bba22cfa8e5524ae30",
         "fields": {
-            "nbvelosdispo": 11,
-            "nbplacesdispo": 13,
+            "nbvelosdispo": 15,
+            "nbplacesdispo": 9,
             "libelle": 6,
             "adresse": "2 RUE INKERMAN",
             "nom": "REPUBLIQUE BEAUX ARTS",
@@ -2228,7 +2228,7 @@
                 50.630943,
                 3.060299
             ],
-            "datemiseajour": "2022-11-02T20:36:58+00:00"
+            "datemiseajour": "2022-11-02T21:22:43+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -2237,7 +2237,7 @@
                 50.630943
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -2260,7 +2260,7 @@
                 50.71473,
                 3.157369
             ],
-            "datemiseajour": "2022-11-02T20:37:01+00:00"
+            "datemiseajour": "2022-11-02T21:22:47+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -2269,14 +2269,14 @@
                 50.71473
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
         "recordid": "e21109f21145b4c7be80b5763ec0dfb01bde623f",
         "fields": {
-            "nbvelosdispo": 8,
-            "nbplacesdispo": 16,
+            "nbvelosdispo": 9,
+            "nbplacesdispo": 15,
             "libelle": 150,
             "adresse": "SUR LE PARVIS DE LA MAIRIE",
             "nom": "RONCHIN MAIRIE",
@@ -2292,7 +2292,7 @@
                 50.60548,
                 3.077622
             ],
-            "datemiseajour": "2022-11-02T20:37:00+00:00"
+            "datemiseajour": "2022-11-02T21:22:46+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -2301,14 +2301,14 @@
                 50.60548
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
         "recordid": "abd202002491bb30a4da32da56fba3df81c6627a",
         "fields": {
-            "nbvelosdispo": 13,
-            "nbplacesdispo": 17,
+            "nbvelosdispo": 11,
+            "nbplacesdispo": 19,
             "libelle": 22,
             "adresse": "PLACE LOUISE DE BETTIGNIES",
             "nom": "LOUISE DE BETTIGNIES",
@@ -2324,7 +2324,7 @@
                 50.64144,
                 3.064974
             ],
-            "datemiseajour": "2022-11-02T20:36:58+00:00"
+            "datemiseajour": "2022-11-02T21:22:44+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -2333,14 +2333,14 @@
                 50.64144
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
         "recordid": "6ffe00ce76302c0ca3447f0b0d4dde4110e80afc",
         "fields": {
-            "nbvelosdispo": 1,
-            "nbplacesdispo": 19,
+            "nbvelosdispo": 0,
+            "nbplacesdispo": 20,
             "libelle": 25,
             "adresse": "PLACE DE LA GARE",
             "nom": "GARE LILLE FLANDRES",
@@ -2356,7 +2356,7 @@
                 50.636399,
                 3.069354
             ],
-            "datemiseajour": "2022-11-02T20:36:58+00:00"
+            "datemiseajour": "2022-11-02T21:22:44+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -2365,14 +2365,14 @@
                 50.636399
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
         "recordid": "c22dd5cb611f22ba66af305fdc67bd886a98e261",
         "fields": {
-            "nbvelosdispo": 1,
-            "nbplacesdispo": 23,
+            "nbvelosdispo": 2,
+            "nbplacesdispo": 22,
             "libelle": 49,
             "adresse": "1 PLACE DELIOT",
             "nom": "PLACE DELIOT",
@@ -2388,7 +2388,7 @@
                 50.61957,
                 3.068387
             ],
-            "datemiseajour": "2022-11-02T20:36:59+00:00"
+            "datemiseajour": "2022-11-02T21:22:44+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -2397,14 +2397,14 @@
                 50.61957
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
         "recordid": "aead83b9344721c5c99e70a889b61c8d7550545d",
         "fields": {
-            "nbvelosdispo": 7,
-            "nbplacesdispo": 18,
+            "nbvelosdispo": 6,
+            "nbplacesdispo": 19,
             "libelle": 50,
             "adresse": "4 RUE WAZEMMES",
             "nom": "RUE D'ARRAS",
@@ -2420,7 +2420,7 @@
                 50.62224,
                 3.067004
             ],
-            "datemiseajour": "2022-11-02T20:36:59+00:00"
+            "datemiseajour": "2022-11-02T21:22:44+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -2429,14 +2429,14 @@
                 50.62224
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
         "recordid": "a7609bd6facf09bb1f74d6e0448d25c585baef55",
         "fields": {
-            "nbvelosdispo": 1,
-            "nbplacesdispo": 39,
+            "nbvelosdispo": 0,
+            "nbplacesdispo": 40,
             "libelle": 159,
             "adresse": "66-188 ALL\ufffdE DE LI\ufffdGE",
             "nom": "EURALILLE",
@@ -2452,7 +2452,7 @@
                 50.637726,
                 3.071892
             ],
-            "datemiseajour": "2022-11-02T20:37:00+00:00"
+            "datemiseajour": "2022-11-02T21:22:46+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -2461,7 +2461,7 @@
                 50.637726
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -2484,7 +2484,7 @@
                 50.62614,
                 3.051729
             ],
-            "datemiseajour": "2022-11-02T20:36:59+00:00"
+            "datemiseajour": "2022-11-02T21:22:44+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -2493,7 +2493,7 @@
                 50.62614
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -2516,7 +2516,7 @@
                 50.629738,
                 3.078224
             ],
-            "datemiseajour": "2022-11-02T20:36:59+00:00"
+            "datemiseajour": "2022-11-02T21:22:44+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -2525,14 +2525,14 @@
                 50.629738
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
         "recordid": "000c57bd6b02cc2149d73646b7aaefe19b708c03",
         "fields": {
-            "nbvelosdispo": 13,
-            "nbplacesdispo": 11,
+            "nbvelosdispo": 15,
+            "nbplacesdispo": 9,
             "libelle": 84,
             "adresse": "165 RUE ROGER SALENGRO",
             "nom": "MAIRIE D'HELLEMMES",
@@ -2548,7 +2548,7 @@
                 50.627243,
                 3.109266
             ],
-            "datemiseajour": "2022-11-02T20:36:59+00:00"
+            "datemiseajour": "2022-11-02T21:22:44+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -2557,14 +2557,14 @@
                 50.627243
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
         "recordid": "c59b622dc4e59ebcc3556aa101f9510055d76bee",
         "fields": {
-            "nbvelosdispo": 9,
-            "nbplacesdispo": 14,
+            "nbvelosdispo": 8,
+            "nbplacesdispo": 15,
             "libelle": 73,
             "adresse": "211 RUE DU FAUBOURG DE ROUBAIX",
             "nom": "ST MAURICE PELLEVOISIN",
@@ -2580,7 +2580,7 @@
                 50.642315,
                 3.087979
             ],
-            "datemiseajour": "2022-11-02T20:36:59+00:00"
+            "datemiseajour": "2022-11-02T21:22:44+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -2589,7 +2589,7 @@
                 50.642315
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -2612,7 +2612,7 @@
                 50.65722,
                 3.056147
             ],
-            "datemiseajour": "2022-11-02T20:37:00+00:00"
+            "datemiseajour": "2022-11-02T21:22:46+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -2621,14 +2621,14 @@
                 50.65722
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
         "recordid": "c9eed130a9344fb7f7ff73e28b8b9330344fff61",
         "fields": {
-            "nbvelosdispo": 8,
-            "nbplacesdispo": 4,
+            "nbvelosdispo": 11,
+            "nbplacesdispo": 1,
             "libelle": 37,
             "adresse": "14 RUE DU BAZINGHIEN",
             "nom": "FULTON",
@@ -2644,7 +2644,7 @@
                 50.62337,
                 3.037553
             ],
-            "datemiseajour": "2022-11-02T20:36:59+00:00"
+            "datemiseajour": "2022-11-02T21:22:44+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -2653,14 +2653,14 @@
                 50.62337
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
         "recordid": "dd365e49d8813d599b1756868a833ba20017efa4",
         "fields": {
-            "nbvelosdispo": 6,
-            "nbplacesdispo": 12,
+            "nbvelosdispo": 7,
+            "nbplacesdispo": 11,
             "libelle": 119,
             "adresse": "390, AVENUE DE DUNKERQUE",
             "nom": "LOMME-LAMBERSART",
@@ -2676,7 +2676,7 @@
                 50.640957,
                 3.018803
             ],
-            "datemiseajour": "2022-11-02T20:37:00+00:00"
+            "datemiseajour": "2022-11-02T21:22:45+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -2685,7 +2685,7 @@
                 50.640957
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -2696,9 +2696,9 @@
             "libelle": 130,
             "adresse": "RUE BAUDOUIN IX - M\u00c9TRO PONT DE BOIS",
             "nom": "PONT DE BOIS",
-            "etat": "EN SERVICE",
+            "etat": "HORS SERVICE",
             "commune": "VILLENEUVE D'ASCQ",
-            "etatconnexion": "CONNECTED",
+            "etatconnexion": "DISCONNECTED",
             "type": "AVEC TPE",
             "geo": [
                 50.62435,
@@ -2708,7 +2708,7 @@
                 50.62435,
                 3.1283
             ],
-            "datemiseajour": "2022-11-02T20:37:00+00:00"
+            "datemiseajour": "2022-11-02T21:22:46+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -2717,7 +2717,7 @@
                 50.62435
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -2728,9 +2728,9 @@
             "libelle": 179,
             "adresse": "Boulevard de l'usine",
             "nom": "BOURSE DU TRAVAIL",
-            "etat": "EN SERVICE",
+            "etat": "HORS SERVICE",
             "commune": "LILLE",
-            "etatconnexion": "CONNECTED",
+            "etatconnexion": "DISCONNECTED",
             "type": "AVEC TPE",
             "geo": [
                 50.626063,
@@ -2740,7 +2740,7 @@
                 50.626063,
                 3.090931
             ],
-            "datemiseajour": "2022-11-02T20:37:00+00:00"
+            "datemiseajour": "2022-11-02T21:22:46+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -2749,7 +2749,7 @@
                 50.626063
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -2772,7 +2772,7 @@
                 50.65532,
                 3.060615
             ],
-            "datemiseajour": "2022-11-02T20:37:00+00:00"
+            "datemiseajour": "2022-11-02T21:22:46+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -2781,7 +2781,7 @@
                 50.65532
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -2804,7 +2804,7 @@
                 50.6903353,
                 3.1690075
             ],
-            "datemiseajour": "2022-11-02T20:37:01+00:00"
+            "datemiseajour": "2022-11-02T21:22:47+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -2813,7 +2813,7 @@
                 50.6903353
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -2836,7 +2836,7 @@
                 50.72498,
                 3.150884
             ],
-            "datemiseajour": "2022-11-02T20:37:01+00:00"
+            "datemiseajour": "2022-11-02T21:22:47+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -2845,7 +2845,7 @@
                 50.72498
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -2868,7 +2868,7 @@
                 50.61245,
                 3.12268
             ],
-            "datemiseajour": "2022-11-02T20:37:01+00:00"
+            "datemiseajour": "2022-11-02T21:22:47+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -2877,7 +2877,7 @@
                 50.61245
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -2900,7 +2900,7 @@
                 50.71732,
                 3.162455
             ],
-            "datemiseajour": "2022-11-02T20:37:01+00:00"
+            "datemiseajour": "2022-11-02T21:22:47+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -2909,7 +2909,7 @@
                 50.71732
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -2932,7 +2932,7 @@
                 50.666236,
                 3.06415
             ],
-            "datemiseajour": "2022-11-02T20:37:01+00:00"
+            "datemiseajour": "2022-11-02T21:22:47+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -2941,14 +2941,14 @@
                 50.666236
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
         "recordid": "b28430c484e21d2d35cb70109272e480fe35c063",
         "fields": {
-            "nbvelosdispo": 6,
-            "nbplacesdispo": 14,
+            "nbvelosdispo": 7,
+            "nbplacesdispo": 13,
             "libelle": 125,
             "adresse": "12, RUE DE NORMANDIE",
             "nom": "FORT DE MONS",
@@ -2964,7 +2964,7 @@
                 50.643883,
                 3.118579
             ],
-            "datemiseajour": "2022-11-02T20:37:00+00:00"
+            "datemiseajour": "2022-11-02T21:22:45+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -2973,7 +2973,7 @@
                 50.643883
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -2996,7 +2996,7 @@
                 50.637078,
                 3.070774
             ],
-            "datemiseajour": "2022-11-02T20:36:58+00:00"
+            "datemiseajour": "2022-11-02T21:22:44+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -3005,14 +3005,14 @@
                 50.637078
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
         "recordid": "dafc950d65ec51317aa65aaba7a12fb5a0cfc396",
         "fields": {
-            "nbvelosdispo": 11,
-            "nbplacesdispo": 12,
+            "nbvelosdispo": 9,
+            "nbplacesdispo": 14,
             "libelle": 47,
             "adresse": "1 BOULEVARD JEAN BAPTISTE LEBAS",
             "nom": "BOULEVARD LOUIS XIV",
@@ -3028,7 +3028,7 @@
                 50.62824,
                 3.069233
             ],
-            "datemiseajour": "2022-11-02T20:36:59+00:00"
+            "datemiseajour": "2022-11-02T21:22:44+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -3037,14 +3037,14 @@
                 50.62824
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
         "recordid": "7de15452082546e19bfc8b7347bfb0cb16a70ec7",
         "fields": {
-            "nbvelosdispo": 14,
-            "nbplacesdispo": 4,
+            "nbvelosdispo": 11,
+            "nbplacesdispo": 7,
             "libelle": 46,
             "adresse": "12 RUE D'ARTOIS",
             "nom": "ARTOIS",
@@ -3060,7 +3060,7 @@
                 50.62629,
                 3.061198
             ],
-            "datemiseajour": "2022-11-02T20:36:59+00:00"
+            "datemiseajour": "2022-11-02T21:22:44+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -3069,14 +3069,14 @@
                 50.62629
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
         "recordid": "8f7c0de050a715b628b2d84322fbebdd5781192a",
         "fields": {
-            "nbvelosdispo": 7,
-            "nbplacesdispo": 13,
+            "nbvelosdispo": 8,
+            "nbplacesdispo": 12,
             "libelle": 148,
             "adresse": "RUE DU FAUBOURG DE DOUAI SOUS LE PONT",
             "nom": "P.I. DE DOUAI",
@@ -3092,7 +3092,7 @@
                 50.612194,
                 3.074952
             ],
-            "datemiseajour": "2022-11-02T20:37:00+00:00"
+            "datemiseajour": "2022-11-02T21:22:46+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -3101,14 +3101,14 @@
                 50.612194
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
         "recordid": "717c72150e2715465078e36b61cdd7ce376e6904",
         "fields": {
-            "nbvelosdispo": 4,
-            "nbplacesdispo": 34,
+            "nbvelosdispo": 2,
+            "nbplacesdispo": 36,
             "libelle": 53,
             "adresse": "1 PLACE BARTHELEMY DOREZ",
             "nom": "PORTE DES POSTES",
@@ -3124,7 +3124,7 @@
                 50.61856,
                 3.049251
             ],
-            "datemiseajour": "2022-11-02T20:36:59+00:00"
+            "datemiseajour": "2022-11-02T21:22:44+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -3133,7 +3133,7 @@
                 50.61856
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -3156,7 +3156,7 @@
                 50.63237,
                 3.066273
             ],
-            "datemiseajour": "2022-11-02T20:36:59+00:00"
+            "datemiseajour": "2022-11-02T21:22:44+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -3165,14 +3165,14 @@
                 50.63237
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
         "recordid": "988367f71ebdf58b5ec5e78b2ff172b3e6c09484",
         "fields": {
-            "nbvelosdispo": 11,
-            "nbplacesdispo": 13,
+            "nbvelosdispo": 14,
+            "nbplacesdispo": 10,
             "libelle": 67,
             "adresse": "122 BOULEVARD MONTEBELLO",
             "nom": "MONTEBELLO",
@@ -3188,7 +3188,7 @@
                 50.621952,
                 3.04534
             ],
-            "datemiseajour": "2022-11-02T20:36:59+00:00"
+            "datemiseajour": "2022-11-02T21:22:44+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -3197,7 +3197,7 @@
                 50.621952
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -3220,7 +3220,7 @@
                 50.630836,
                 3.047778
             ],
-            "datemiseajour": "2022-11-02T20:36:59+00:00"
+            "datemiseajour": "2022-11-02T21:22:44+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -3229,7 +3229,7 @@
                 50.630836
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -3252,7 +3252,7 @@
                 50.637302,
                 3.024314
             ],
-            "datemiseajour": "2022-11-02T20:36:59+00:00"
+            "datemiseajour": "2022-11-02T21:22:44+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -3261,14 +3261,14 @@
                 50.637302
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
         "recordid": "631670fe7d7119ee356002403c25f3a677b1862f",
         "fields": {
-            "nbvelosdispo": 17,
-            "nbplacesdispo": 3,
+            "nbvelosdispo": 16,
+            "nbplacesdispo": 4,
             "libelle": 74,
             "adresse": "112 RUE DU FAUBOURG DE ROUBAIX",
             "nom": "FAUBOURG DE ROUBAIX",
@@ -3284,7 +3284,7 @@
                 50.641238,
                 3.083175
             ],
-            "datemiseajour": "2022-11-02T20:36:59+00:00"
+            "datemiseajour": "2022-11-02T21:22:44+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -3293,7 +3293,7 @@
                 50.641238
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -3316,7 +3316,7 @@
                 50.639828,
                 3.106677
             ],
-            "datemiseajour": "2022-11-02T20:36:59+00:00"
+            "datemiseajour": "2022-11-02T21:22:45+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -3325,7 +3325,7 @@
                 50.639828
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -3348,7 +3348,7 @@
                 50.699436,
                 3.159658
             ],
-            "datemiseajour": "2022-11-02T20:37:01+00:00"
+            "datemiseajour": "2022-11-02T21:22:47+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -3357,14 +3357,14 @@
                 50.699436
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
         "recordid": "18b269166d31afbff1eaa73ca676067639cdbec7",
         "fields": {
-            "nbvelosdispo": 13,
-            "nbplacesdispo": 11,
+            "nbvelosdispo": 11,
+            "nbplacesdispo": 13,
             "libelle": 19,
             "adresse": "40 RUE ROYALE",
             "nom": "RUE ROYALE",
@@ -3380,7 +3380,7 @@
                 50.64031,
                 3.05774
             ],
-            "datemiseajour": "2022-11-02T20:36:58+00:00"
+            "datemiseajour": "2022-11-02T21:22:44+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -3389,7 +3389,7 @@
                 50.64031
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -3412,7 +3412,7 @@
                 50.658048,
                 3.063774
             ],
-            "datemiseajour": "2022-11-02T20:37:00+00:00"
+            "datemiseajour": "2022-11-02T21:22:46+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -3421,14 +3421,14 @@
                 50.658048
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
         "recordid": "c7e8f2abe3b86d22d007e2117c7d46b9ded52a1a",
         "fields": {
-            "nbvelosdispo": 8,
-            "nbplacesdispo": 9,
+            "nbvelosdispo": 10,
+            "nbplacesdispo": 7,
             "libelle": 196,
             "adresse": "rue Ancienne Balaterie",
             "nom": "ANATOLE FRANCE",
@@ -3444,7 +3444,7 @@
                 50.636003,
                 3.009396
             ],
-            "datemiseajour": "2022-11-02T20:37:00+00:00"
+            "datemiseajour": "2022-11-02T21:22:46+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -3453,7 +3453,7 @@
                 50.636003
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -3476,7 +3476,7 @@
                 50.614392,
                 3.010842
             ],
-            "datemiseajour": "2022-11-02T20:37:00+00:00"
+            "datemiseajour": "2022-11-02T21:22:46+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -3485,7 +3485,7 @@
                 50.614392
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -3508,7 +3508,7 @@
                 50.612921,
                 3.003634
             ],
-            "datemiseajour": "2022-11-02T20:37:00+00:00"
+            "datemiseajour": "2022-11-02T21:22:46+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -3517,7 +3517,7 @@
                 50.612921
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -3540,7 +3540,7 @@
                 50.619602,
                 3.13197
             ],
-            "datemiseajour": "2022-11-02T20:37:00+00:00"
+            "datemiseajour": "2022-11-02T21:22:46+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -3549,7 +3549,7 @@
                 50.619602
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -3572,7 +3572,7 @@
                 50.67544,
                 3.181998
             ],
-            "datemiseajour": "2022-11-02T20:37:01+00:00"
+            "datemiseajour": "2022-11-02T21:22:46+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -3581,7 +3581,7 @@
                 50.67544
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -3604,7 +3604,7 @@
                 50.674995,
                 3.195737
             ],
-            "datemiseajour": "2022-11-02T20:37:01+00:00"
+            "datemiseajour": "2022-11-02T21:22:46+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -3613,7 +3613,7 @@
                 50.674995
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -3636,7 +3636,7 @@
                 50.676884,
                 3.187817
             ],
-            "datemiseajour": "2022-11-02T20:37:01+00:00"
+            "datemiseajour": "2022-11-02T21:22:46+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -3645,7 +3645,7 @@
                 50.676884
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -3668,7 +3668,7 @@
                 50.674164,
                 3.174519
             ],
-            "datemiseajour": "2022-11-02T20:37:01+00:00"
+            "datemiseajour": "2022-11-02T21:22:46+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -3677,7 +3677,7 @@
                 50.674164
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -3700,7 +3700,7 @@
                 50.682053,
                 3.182205
             ],
-            "datemiseajour": "2022-11-02T20:37:01+00:00"
+            "datemiseajour": "2022-11-02T21:22:46+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -3709,7 +3709,7 @@
                 50.682053
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -3732,7 +3732,7 @@
                 50.6795,
                 3.179257
             ],
-            "datemiseajour": "2022-11-02T20:37:01+00:00"
+            "datemiseajour": "2022-11-02T21:22:46+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -3741,7 +3741,7 @@
                 50.6795
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -3764,7 +3764,7 @@
                 50.68645,
                 3.170006
             ],
-            "datemiseajour": "2022-11-02T20:37:01+00:00"
+            "datemiseajour": "2022-11-02T21:22:47+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -3773,7 +3773,7 @@
                 50.68645
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -3796,7 +3796,7 @@
                 50.693768,
                 3.167666
             ],
-            "datemiseajour": "2022-11-02T20:37:01+00:00"
+            "datemiseajour": "2022-11-02T21:22:47+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -3805,14 +3805,14 @@
                 50.693768
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
         "recordid": "3db242968d95d3be58f3d205bb43ccf4a711cce9",
         "fields": {
             "nbvelosdispo": 8,
-            "nbplacesdispo": 12,
+            "nbplacesdispo": 11,
             "libelle": 274,
             "adresse": "Angle du docteur Calmette et de l'avenue Laennec",
             "nom": "CALMETTE",
@@ -3828,7 +3828,7 @@
                 50.667847,
                 3.192974
             ],
-            "datemiseajour": "2022-11-02T20:37:01+00:00"
+            "datemiseajour": "2022-11-02T21:22:47+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -3837,7 +3837,7 @@
                 50.667847
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -3860,7 +3860,7 @@
                 50.665946,
                 3.198101
             ],
-            "datemiseajour": "2022-11-02T20:37:01+00:00"
+            "datemiseajour": "2022-11-02T21:22:47+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -3869,7 +3869,7 @@
                 50.665946
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -3892,7 +3892,7 @@
                 50.67057,
                 3.1443
             ],
-            "datemiseajour": "2022-11-02T20:37:01+00:00"
+            "datemiseajour": "2022-11-02T21:22:47+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -3901,7 +3901,7 @@
                 50.67057
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -3924,7 +3924,7 @@
                 50.610949,
                 2.983948
             ],
-            "datemiseajour": "2022-11-02T20:37:01+00:00"
+            "datemiseajour": "2022-11-02T21:22:47+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -3933,7 +3933,7 @@
                 50.610949
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -3956,7 +3956,7 @@
                 50.719803,
                 3.156338
             ],
-            "datemiseajour": "2022-11-02T20:37:01+00:00"
+            "datemiseajour": "2022-11-02T21:22:47+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -3965,7 +3965,7 @@
                 50.719803
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -3988,7 +3988,7 @@
                 50.721308,
                 3.158104
             ],
-            "datemiseajour": "2022-11-02T20:37:01+00:00"
+            "datemiseajour": "2022-11-02T21:22:47+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -3997,7 +3997,7 @@
                 50.721308
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -4020,7 +4020,7 @@
                 50.63745,
                 3.123145
             ],
-            "datemiseajour": "2022-11-02T20:37:00+00:00"
+            "datemiseajour": "2022-11-02T21:22:46+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -4029,7 +4029,7 @@
                 50.63745
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -4052,7 +4052,7 @@
                 50.676607,
                 3.065308
             ],
-            "datemiseajour": "2022-11-02T20:37:01+00:00"
+            "datemiseajour": "2022-11-02T21:22:47+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -4061,7 +4061,7 @@
                 50.676607
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -4084,7 +4084,7 @@
                 50.688015,
                 3.174815
             ],
-            "datemiseajour": "2022-11-02T20:37:01+00:00"
+            "datemiseajour": "2022-11-02T21:22:46+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -4093,14 +4093,14 @@
                 50.688015
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
         "recordid": "9e6a869133647a8607f15021c18c5738065fdef7",
         "fields": {
-            "nbvelosdispo": 0,
-            "nbplacesdispo": 40,
+            "nbvelosdispo": 1,
+            "nbplacesdispo": 39,
             "libelle": 28,
             "adresse": "17 RUE SOLFERINO",
             "nom": "PALAIS RAMEAU",
@@ -4116,7 +4116,7 @@
                 50.634686,
                 3.048344
             ],
-            "datemiseajour": "2022-11-02T20:36:58+00:00"
+            "datemiseajour": "2022-11-02T21:22:44+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -4125,20 +4125,20 @@
                 50.634686
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
         "recordid": "a9b8fef8388361fbe16eb85f10f8af0e6a07f2a5",
         "fields": {
-            "nbvelosdispo": 6,
-            "nbplacesdispo": 13,
+            "nbvelosdispo": 11,
+            "nbplacesdispo": 8,
             "libelle": 146,
             "adresse": "FACE 171 RUE NATIONALE",
             "nom": "SOLFERINO NATIONALE",
-            "etat": "HORS SERVICE",
+            "etat": "EN SERVICE",
             "commune": "LILLE",
-            "etatconnexion": "DISCONNECTED",
+            "etatconnexion": "CONNECTED",
             "type": "AVEC TPE",
             "geo": [
                 50.63268,
@@ -4148,7 +4148,7 @@
                 50.63268,
                 3.052483
             ],
-            "datemiseajour": "2022-11-02T20:37:00+00:00"
+            "datemiseajour": "2022-11-02T21:22:46+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -4157,7 +4157,7 @@
                 50.63268
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -4180,7 +4180,7 @@
                 50.70076,
                 3.18407
             ],
-            "datemiseajour": "2022-11-02T20:37:01+00:00"
+            "datemiseajour": "2022-11-02T21:22:47+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -4189,7 +4189,7 @@
                 50.70076
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -4212,7 +4212,7 @@
                 50.632965,
                 3.076437
             ],
-            "datemiseajour": "2022-11-02T20:36:59+00:00"
+            "datemiseajour": "2022-11-02T21:22:44+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -4221,7 +4221,7 @@
                 50.632965
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -4244,7 +4244,7 @@
                 50.6318,
                 3.071392
             ],
-            "datemiseajour": "2022-11-02T20:36:59+00:00"
+            "datemiseajour": "2022-11-02T21:22:44+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -4253,14 +4253,14 @@
                 50.6318
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
         "recordid": "12de53e63a0ae7550b07af704b8568bd9a18de34",
         "fields": {
-            "nbvelosdispo": 10,
-            "nbplacesdispo": 14,
+            "nbvelosdispo": 11,
+            "nbplacesdispo": 13,
             "libelle": 94,
             "adresse": "RUE DE BORDEAUX",
             "nom": "MARX DORMOY",
@@ -4276,7 +4276,7 @@
                 50.63579,
                 3.033977
             ],
-            "datemiseajour": "2022-11-02T20:36:59+00:00"
+            "datemiseajour": "2022-11-02T21:22:44+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -4285,14 +4285,14 @@
                 50.63579
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
         "recordid": "109455a36378e3a5b0ad83d2279212d6ff6e6da0",
         "fields": {
-            "nbvelosdispo": 11,
-            "nbplacesdispo": 9,
+            "nbvelosdispo": 13,
+            "nbplacesdispo": 7,
             "libelle": 108,
             "adresse": "108 RUE DU GENERAL DE GAULLE",
             "nom": "GENERAL DE GAULLE",
@@ -4308,7 +4308,7 @@
                 50.645267,
                 3.100516
             ],
-            "datemiseajour": "2022-11-02T20:36:59+00:00"
+            "datemiseajour": "2022-11-02T21:22:45+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -4317,7 +4317,7 @@
                 50.645267
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -4328,9 +4328,9 @@
             "libelle": 114,
             "adresse": "BOULEVARD DU PR\u00c9SIDENT HOOVER",
             "nom": "BOIS HABITE",
-            "etat": "HORS SERVICE",
+            "etat": "EN SERVICE",
             "commune": "LILLE",
-            "etatconnexion": "DISCONNECTED",
+            "etatconnexion": "CONNECTED",
             "type": "AVEC TPE",
             "geo": [
                 50.62651,
@@ -4340,7 +4340,7 @@
                 50.62651,
                 3.079211
             ],
-            "datemiseajour": "2022-11-02T20:36:59+00:00"
+            "datemiseajour": "2022-11-02T21:22:45+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -4349,7 +4349,7 @@
                 50.62651
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -4372,7 +4372,7 @@
                 50.634417,
                 3.0822274
             ],
-            "datemiseajour": "2022-11-02T20:37:00+00:00"
+            "datemiseajour": "2022-11-02T21:22:46+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -4381,14 +4381,14 @@
                 50.634417
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
         "recordid": "deb7d40bb70ad7ba12728ffbe5e46f37a12db723",
         "fields": {
-            "nbvelosdispo": 5,
-            "nbplacesdispo": 27,
+            "nbvelosdispo": 2,
+            "nbplacesdispo": 30,
             "libelle": 10,
             "adresse": "ANGLE PLACE RIHOUR",
             "nom": "RIHOUR",
@@ -4404,7 +4404,7 @@
                 50.63589,
                 3.062471
             ],
-            "datemiseajour": "2022-11-02T20:36:58+00:00"
+            "datemiseajour": "2022-11-02T21:22:43+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -4413,14 +4413,14 @@
                 50.63589
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
         "recordid": "2d211ff0d2277ecaf5399a80e66917ec0197ed29",
         "fields": {
-            "nbvelosdispo": 6,
-            "nbplacesdispo": 14,
+            "nbvelosdispo": 8,
+            "nbplacesdispo": 12,
             "libelle": 21,
             "adresse": "RUE ALPHONSE COLAS",
             "nom": "PLACE DU CONCERT",
@@ -4436,7 +4436,7 @@
                 50.64193,
                 3.061774
             ],
-            "datemiseajour": "2022-11-02T20:36:58+00:00"
+            "datemiseajour": "2022-11-02T21:22:44+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -4445,7 +4445,7 @@
                 50.64193
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -4468,7 +4468,7 @@
                 50.62286,
                 3.0914
             ],
-            "datemiseajour": "2022-11-02T20:36:59+00:00"
+            "datemiseajour": "2022-11-02T21:22:44+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -4477,7 +4477,7 @@
                 50.62286
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -4500,7 +4500,7 @@
                 50.644855,
                 3.013238
             ],
-            "datemiseajour": "2022-11-02T20:37:00+00:00"
+            "datemiseajour": "2022-11-02T21:22:45+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -4509,7 +4509,7 @@
                 50.644855
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -4532,7 +4532,7 @@
                 50.6312847,
                 3.1350379
             ],
-            "datemiseajour": "2022-11-02T20:37:00+00:00"
+            "datemiseajour": "2022-11-02T21:22:46+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -4541,7 +4541,7 @@
                 50.6312847
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -4564,7 +4564,7 @@
                 50.69184,
                 3.173925
             ],
-            "datemiseajour": "2022-11-02T20:37:01+00:00"
+            "datemiseajour": "2022-11-02T21:22:47+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -4573,7 +4573,7 @@
                 50.69184
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -4596,7 +4596,7 @@
                 50.67756,
                 3.14019
             ],
-            "datemiseajour": "2022-11-02T20:37:01+00:00"
+            "datemiseajour": "2022-11-02T21:22:47+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -4605,7 +4605,7 @@
                 50.67756
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -4628,7 +4628,7 @@
                 50.64466,
                 3.03027
             ],
-            "datemiseajour": "2022-11-02T20:37:01+00:00"
+            "datemiseajour": "2022-11-02T21:22:47+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -4637,14 +4637,14 @@
                 50.64466
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
         "recordid": "ef84a05a565deb315228b079839095182c045f1f",
         "fields": {
-            "nbvelosdispo": 19,
-            "nbplacesdispo": 13,
+            "nbvelosdispo": 16,
+            "nbplacesdispo": 16,
             "libelle": 8,
             "adresse": "3 PLACE RICHEBE",
             "nom": "PLACE RICHEBE",
@@ -4660,7 +4660,7 @@
                 50.632366,
                 3.062313
             ],
-            "datemiseajour": "2022-11-02T20:36:58+00:00"
+            "datemiseajour": "2022-11-02T21:22:43+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -4669,14 +4669,14 @@
                 50.632366
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
         "recordid": "e262deb6bdf2bd339975697487646055c99a511f",
         "fields": {
-            "nbvelosdispo": 11,
-            "nbplacesdispo": 5,
+            "nbvelosdispo": 12,
+            "nbplacesdispo": 4,
             "libelle": 164,
             "adresse": "2 RUE PIERRE DUPONT",
             "nom": "HOPITAL MILITAIRE",
@@ -4692,7 +4692,7 @@
                 50.63393,
                 3.061687
             ],
-            "datemiseajour": "2022-11-02T20:37:00+00:00"
+            "datemiseajour": "2022-11-02T21:22:46+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -4701,7 +4701,7 @@
                 50.63393
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -4724,7 +4724,7 @@
                 50.604525,
                 3.031224
             ],
-            "datemiseajour": "2022-11-02T20:37:00+00:00"
+            "datemiseajour": "2022-11-02T21:22:46+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -4733,7 +4733,7 @@
                 50.604525
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -4756,7 +4756,7 @@
                 50.73682,
                 3.1712308
             ],
-            "datemiseajour": "2022-11-02T20:37:01+00:00"
+            "datemiseajour": "2022-11-02T21:22:47+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -4765,7 +4765,7 @@
                 50.73682
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -4788,7 +4788,7 @@
                 50.63899,
                 3.01154
             ],
-            "datemiseajour": "2022-11-02T20:37:00+00:00"
+            "datemiseajour": "2022-11-02T21:22:45+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -4797,7 +4797,7 @@
                 50.63899
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -4820,7 +4820,7 @@
                 50.662941,
                 3.057167
             ],
-            "datemiseajour": "2022-11-02T20:37:00+00:00"
+            "datemiseajour": "2022-11-02T21:22:46+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -4829,7 +4829,7 @@
                 50.662941
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -4852,7 +4852,7 @@
                 50.60301,
                 3.038779
             ],
-            "datemiseajour": "2022-11-02T20:37:00+00:00"
+            "datemiseajour": "2022-11-02T21:22:46+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -4861,14 +4861,14 @@
                 50.60301
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
         "recordid": "a97e02aea6ed3d75b597722268f5fe29664d5a66",
         "fields": {
-            "nbvelosdispo": 1,
-            "nbplacesdispo": 25,
+            "nbvelosdispo": 2,
+            "nbplacesdispo": 24,
             "libelle": 48,
             "adresse": "PLACE FERNIG",
             "nom": "PORTE DE DOUAI",
@@ -4884,7 +4884,7 @@
                 50.61843,
                 3.07241
             ],
-            "datemiseajour": "2022-11-02T20:36:59+00:00"
+            "datemiseajour": "2022-11-02T21:22:44+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -4893,14 +4893,14 @@
                 50.61843
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
         "recordid": "a16e0b7e1d8c5b61fbc3c53285a1db8f7236b957",
         "fields": {
-            "nbvelosdispo": 1,
-            "nbplacesdispo": 16,
+            "nbvelosdispo": 2,
+            "nbplacesdispo": 15,
             "libelle": 123,
             "adresse": "71, RUE NATIONALE",
             "nom": "RUE DE L'EGLISE",
@@ -4916,7 +4916,7 @@
                 50.665348,
                 3.075792
             ],
-            "datemiseajour": "2022-11-02T20:37:00+00:00"
+            "datemiseajour": "2022-11-02T21:22:45+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -4925,7 +4925,7 @@
                 50.665348
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -4948,7 +4948,7 @@
                 50.647236,
                 3.059376
             ],
-            "datemiseajour": "2022-11-02T20:36:58+00:00"
+            "datemiseajour": "2022-11-02T21:22:44+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -4957,14 +4957,14 @@
                 50.647236
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
         "recordid": "77318b55b366a091f86257719649cddb47e492d7",
         "fields": {
-            "nbvelosdispo": 17,
-            "nbplacesdispo": 3,
+            "nbvelosdispo": 16,
+            "nbplacesdispo": 4,
             "libelle": 31,
             "adresse": "38 BIS RUE DU PONT NEUF",
             "nom": "PONT NEUF",
@@ -4980,7 +4980,7 @@
                 50.644264,
                 3.062935
             ],
-            "datemiseajour": "2022-11-02T20:36:58+00:00"
+            "datemiseajour": "2022-11-02T21:22:44+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -4989,7 +4989,7 @@
                 50.644264
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -5012,7 +5012,7 @@
                 50.62624,
                 3.039911
             ],
-            "datemiseajour": "2022-11-02T20:36:59+00:00"
+            "datemiseajour": "2022-11-02T21:22:44+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -5021,14 +5021,14 @@
                 50.62624
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
         "recordid": "3f443706e549c832710c84005d00723d5a476544",
         "fields": {
-            "nbvelosdispo": 22,
-            "nbplacesdispo": 2,
+            "nbvelosdispo": 18,
+            "nbplacesdispo": 6,
             "libelle": 43,
             "adresse": "3 PLACE SEBASTOPOL",
             "nom": "THEATRE SEBASTOPOL",
@@ -5044,7 +5044,7 @@
                 50.629044,
                 3.058288
             ],
-            "datemiseajour": "2022-11-02T20:36:59+00:00"
+            "datemiseajour": "2022-11-02T21:22:44+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -5053,7 +5053,7 @@
                 50.629044
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -5076,7 +5076,7 @@
                 50.62073,
                 3.07895
             ],
-            "datemiseajour": "2022-11-02T20:36:59+00:00"
+            "datemiseajour": "2022-11-02T21:22:44+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -5085,14 +5085,14 @@
                 50.62073
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
         "recordid": "e2d9f92d75985f49cf223ca7eeccbfb2c96f645b",
         "fields": {
-            "nbvelosdispo": 2,
-            "nbplacesdispo": 21,
+            "nbvelosdispo": 0,
+            "nbplacesdispo": 24,
             "libelle": 61,
             "adresse": "30 BOULEVARD DU MARECHAL VAILLANT",
             "nom": "LILLE GRAND PALAIS",
@@ -5108,7 +5108,7 @@
                 50.629246,
                 3.075218
             ],
-            "datemiseajour": "2022-11-02T20:36:59+00:00"
+            "datemiseajour": "2022-11-02T21:22:44+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -5117,14 +5117,14 @@
                 50.629246
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
         "recordid": "267aecef5841acf354f7b87ddcb4ee03c7638e57",
         "fields": {
-            "nbvelosdispo": 4,
-            "nbplacesdispo": 17,
+            "nbvelosdispo": 5,
+            "nbplacesdispo": 16,
             "libelle": 75,
             "adresse": "59 RUE EUGENE JACQUET",
             "nom": "EUGENE JACQUET",
@@ -5140,7 +5140,7 @@
                 50.637337,
                 3.084894
             ],
-            "datemiseajour": "2022-11-02T20:36:59+00:00"
+            "datemiseajour": "2022-11-02T21:22:44+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -5149,7 +5149,7 @@
                 50.637337
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -5172,7 +5172,7 @@
                 50.6423,
                 3.099291
             ],
-            "datemiseajour": "2022-11-02T20:36:59+00:00"
+            "datemiseajour": "2022-11-02T21:22:45+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -5181,14 +5181,14 @@
                 50.6423
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
         "recordid": "301edb33dc7276e7346e6cab110788590396bda1",
         "fields": {
-            "nbvelosdispo": 1,
-            "nbplacesdispo": 24,
+            "nbvelosdispo": 0,
+            "nbplacesdispo": 25,
             "libelle": 12,
             "adresse": "FACE AU 8 RUE ANATOLE FRANCE",
             "nom": "OPERA",
@@ -5204,7 +5204,7 @@
                 50.637486,
                 3.065902
             ],
-            "datemiseajour": "2022-11-02T20:36:58+00:00"
+            "datemiseajour": "2022-11-02T21:22:43+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -5213,14 +5213,14 @@
                 50.637486
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
         "recordid": "985b9680072408444b6e05524e66ad6c833206fe",
         "fields": {
-            "nbvelosdispo": 20,
-            "nbplacesdispo": 10,
+            "nbvelosdispo": 17,
+            "nbplacesdispo": 13,
             "libelle": 20,
             "adresse": "PLACE GILLSON",
             "nom": "N.D. DE LA TREILLE",
@@ -5236,7 +5236,7 @@
                 50.640385,
                 3.062053
             ],
-            "datemiseajour": "2022-11-02T20:36:58+00:00"
+            "datemiseajour": "2022-11-02T21:22:44+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -5245,14 +5245,14 @@
                 50.640385
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
         "recordid": "d951c5801d573f20889b8b8ebeebb62f68a764be",
         "fields": {
-            "nbvelosdispo": 16,
-            "nbplacesdispo": 2,
+            "nbvelosdispo": 17,
+            "nbplacesdispo": 1,
             "libelle": 115,
             "adresse": "85, RUE DU G\u00c9N\u00c9RAL DE GAULLE",
             "nom": "DE GAULLE",
@@ -5268,7 +5268,7 @@
                 50.651497,
                 3.072316
             ],
-            "datemiseajour": "2022-11-02T20:36:59+00:00"
+            "datemiseajour": "2022-11-02T21:22:45+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -5277,7 +5277,7 @@
                 50.651497
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -5288,9 +5288,9 @@
             "libelle": 117,
             "adresse": "9, AVENUE HENRI GRUSON",
             "nom": "HIPPODROME",
-            "etat": "HORS SERVICE",
+            "etat": "EN SERVICE",
             "commune": "LAMBERSART",
-            "etatconnexion": "DISCONNECTED",
+            "etatconnexion": "CONNECTED",
             "type": "AVEC TPE",
             "geo": [
                 50.641617,
@@ -5300,7 +5300,7 @@
                 50.641617,
                 3.031375
             ],
-            "datemiseajour": "2022-11-02T20:37:00+00:00"
+            "datemiseajour": "2022-11-02T21:22:45+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -5309,14 +5309,14 @@
                 50.641617
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
         "recordid": "abd16e8632a06c3440181987811eb1bd553884e2",
         "fields": {
-            "nbvelosdispo": 7,
-            "nbplacesdispo": 8,
+            "nbvelosdispo": 6,
+            "nbplacesdispo": 9,
             "libelle": 180,
             "adresse": "19 ALLEE DU Dr HAVET",
             "nom": "SQUARE JEAN MONNET",
@@ -5332,7 +5332,7 @@
                 50.652107,
                 3.029324
             ],
-            "datemiseajour": "2022-11-02T20:37:00+00:00"
+            "datemiseajour": "2022-11-02T21:22:46+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -5341,14 +5341,14 @@
                 50.652107
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
         "recordid": "2aff4980cf4ff599dd1ac401bac51a68049d10ac",
         "fields": {
-            "nbvelosdispo": 1,
-            "nbplacesdispo": 29,
+            "nbvelosdispo": 2,
+            "nbplacesdispo": 28,
             "libelle": 88,
             "adresse": "91 RUE NATIONALE",
             "nom": "RUE NATIONALE",
@@ -5364,7 +5364,7 @@
                 50.635082,
                 3.058015
             ],
-            "datemiseajour": "2022-11-02T20:36:59+00:00"
+            "datemiseajour": "2022-11-02T21:22:44+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -5373,14 +5373,14 @@
                 50.635082
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
         "recordid": "ce794d69154f5d81bd7845741332a522f836c743",
         "fields": {
-            "nbvelosdispo": 4,
-            "nbplacesdispo": 20,
+            "nbvelosdispo": 3,
+            "nbplacesdispo": 21,
             "libelle": 99,
             "adresse": "RUE DU GENERAL DE GAULLE",
             "nom": "LA MADELEINE MAIRIE",
@@ -5396,7 +5396,7 @@
                 50.654602,
                 3.073805
             ],
-            "datemiseajour": "2022-11-02T20:36:59+00:00"
+            "datemiseajour": "2022-11-02T21:22:45+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -5405,7 +5405,7 @@
                 50.654602
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -5428,7 +5428,7 @@
                 50.68859,
                 3.182028
             ],
-            "datemiseajour": "2022-11-02T20:37:01+00:00"
+            "datemiseajour": "2022-11-02T21:22:46+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -5437,7 +5437,7 @@
                 50.68859
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -5460,7 +5460,7 @@
                 50.727453,
                 3.166828
             ],
-            "datemiseajour": "2022-11-02T20:37:01+00:00"
+            "datemiseajour": "2022-11-02T21:22:47+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -5469,7 +5469,7 @@
                 50.727453
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -5492,7 +5492,7 @@
                 50.72271,
                 3.163794
             ],
-            "datemiseajour": "2022-11-02T20:37:01+00:00"
+            "datemiseajour": "2022-11-02T21:22:47+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -5501,7 +5501,7 @@
                 50.72271
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -5524,7 +5524,7 @@
                 50.6151322,
                 3.0863797
             ],
-            "datemiseajour": "2022-11-02T20:37:01+00:00"
+            "datemiseajour": "2022-11-02T21:22:47+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -5533,14 +5533,14 @@
                 50.6151322
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
         "recordid": "b6d89a5b55d9faeb1d8c379d7356b078bec912e1",
         "fields": {
-            "nbvelosdispo": 1,
-            "nbplacesdispo": 25,
+            "nbvelosdispo": 0,
+            "nbplacesdispo": 26,
             "libelle": 162,
             "adresse": "3 RUE AUGUSTE ANGELLIER",
             "nom": "ANGELLIER",
@@ -5556,7 +5556,7 @@
                 50.628544,
                 3.065015
             ],
-            "datemiseajour": "2022-11-02T20:37:00+00:00"
+            "datemiseajour": "2022-11-02T21:22:46+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -5565,7 +5565,7 @@
                 50.628544
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -5588,7 +5588,7 @@
                 50.625597,
                 3.064497
             ],
-            "datemiseajour": "2022-11-02T20:37:00+00:00"
+            "datemiseajour": "2022-11-02T21:22:46+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -5597,7 +5597,7 @@
                 50.625597
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -5620,7 +5620,7 @@
                 50.62195,
                 3.06038
             ],
-            "datemiseajour": "2022-11-02T20:37:00+00:00"
+            "datemiseajour": "2022-11-02T21:22:46+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -5629,7 +5629,7 @@
                 50.62195
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -5652,7 +5652,7 @@
                 50.636093,
                 3.050447
             ],
-            "datemiseajour": "2022-11-02T20:36:58+00:00"
+            "datemiseajour": "2022-11-02T21:22:43+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -5661,7 +5661,7 @@
                 50.636093
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -5684,7 +5684,7 @@
                 50.7134,
                 3.165011
             ],
-            "datemiseajour": "2022-11-02T20:37:01+00:00"
+            "datemiseajour": "2022-11-02T21:22:47+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -5693,7 +5693,7 @@
                 50.7134
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -5716,7 +5716,7 @@
                 50.732277,
                 3.157656
             ],
-            "datemiseajour": "2022-11-02T20:37:01+00:00"
+            "datemiseajour": "2022-11-02T21:22:47+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -5725,7 +5725,7 @@
                 50.732277
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -5748,7 +5748,7 @@
                 50.671409,
                 3.055056
             ],
-            "datemiseajour": "2022-11-02T20:37:01+00:00"
+            "datemiseajour": "2022-11-02T21:22:47+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -5757,7 +5757,7 @@
                 50.671409
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -5780,7 +5780,7 @@
                 50.672499,
                 3.069317
             ],
-            "datemiseajour": "2022-11-02T20:37:01+00:00"
+            "datemiseajour": "2022-11-02T21:22:47+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -5789,7 +5789,7 @@
                 50.672499
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -5812,7 +5812,7 @@
                 50.644685,
                 3.057953
             ],
-            "datemiseajour": "2022-11-02T20:37:00+00:00"
+            "datemiseajour": "2022-11-02T21:22:46+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -5821,7 +5821,7 @@
                 50.644685
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -5844,7 +5844,7 @@
                 50.722343,
                 3.170847
             ],
-            "datemiseajour": "2022-11-02T20:37:01+00:00"
+            "datemiseajour": "2022-11-02T21:22:47+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -5853,7 +5853,7 @@
                 50.722343
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -5876,7 +5876,7 @@
                 50.63457,
                 3.068007
             ],
-            "datemiseajour": "2022-11-02T20:36:58+00:00"
+            "datemiseajour": "2022-11-02T21:22:44+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -5885,14 +5885,14 @@
                 50.63457
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
         "recordid": "e0676f038aea52b64945ef7be8b52c74ae89ba6f",
         "fields": {
-            "nbvelosdispo": 6,
-            "nbplacesdispo": 30,
+            "nbvelosdispo": 5,
+            "nbplacesdispo": 31,
             "libelle": 27,
             "adresse": "2 - 10 RUE DES TANNEURS",
             "nom": "TANNEURS",
@@ -5908,7 +5908,7 @@
                 50.635014,
                 3.064802
             ],
-            "datemiseajour": "2022-11-02T20:36:58+00:00"
+            "datemiseajour": "2022-11-02T21:22:44+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -5917,7 +5917,7 @@
                 50.635014
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -5928,9 +5928,9 @@
             "libelle": 142,
             "adresse": "RUE TR\u00c9MI\u00c8RES ANGLE RUE DES FUSILL\u00c9S",
             "nom": "TREMIERE",
-            "etat": "EN SERVICE",
+            "etat": "HORS SERVICE",
             "commune": "VILLENEUVE D'ASCQ",
-            "etatconnexion": "CONNECTED",
+            "etatconnexion": "DISCONNECTED",
             "type": "SANS TPE",
             "geo": [
                 50.6206,
@@ -5940,7 +5940,7 @@
                 50.6206,
                 3.138207
             ],
-            "datemiseajour": "2022-11-02T20:37:00+00:00"
+            "datemiseajour": "2022-11-02T21:22:46+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -5949,7 +5949,7 @@
                 50.6206
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -5972,7 +5972,7 @@
                 50.63413,
                 3.041209
             ],
-            "datemiseajour": "2022-11-02T20:36:58+00:00"
+            "datemiseajour": "2022-11-02T21:22:44+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -5981,14 +5981,14 @@
                 50.63413
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
         "recordid": "136da7988d7af63a5ddd83200ad5691f8b0c1a7f",
         "fields": {
-            "nbvelosdispo": 4,
-            "nbplacesdispo": 14,
+            "nbvelosdispo": 5,
+            "nbplacesdispo": 13,
             "libelle": 38,
             "adresse": "1 RUE D'HAUBOURDIN",
             "nom": "PLACE CASQUETTE",
@@ -6004,7 +6004,7 @@
                 50.62429,
                 3.045321
             ],
-            "datemiseajour": "2022-11-02T20:36:59+00:00"
+            "datemiseajour": "2022-11-02T21:22:44+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -6013,14 +6013,14 @@
                 50.62429
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
         "recordid": "5bc1c5091428bb56801455343b0cd58fca8d4179",
         "fields": {
-            "nbvelosdispo": 12,
-            "nbplacesdispo": 8,
+            "nbvelosdispo": 13,
+            "nbplacesdispo": 7,
             "libelle": 54,
             "adresse": "93 RUE RACINE",
             "nom": "METRO WAZEMMES",
@@ -6036,7 +6036,7 @@
                 50.62338,
                 3.051565
             ],
-            "datemiseajour": "2022-11-02T20:36:59+00:00"
+            "datemiseajour": "2022-11-02T21:22:44+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -6045,14 +6045,14 @@
                 50.62338
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
         "recordid": "39d98ae3c1baadbb103b016ebadd414a3e7427f1",
         "fields": {
-            "nbvelosdispo": 1,
-            "nbplacesdispo": 17,
+            "nbvelosdispo": 2,
+            "nbplacesdispo": 16,
             "libelle": 95,
             "adresse": "280 BIS RUE PIERRE LEGRAND",
             "nom": "MARBRERIE",
@@ -6068,7 +6068,7 @@
                 50.63041,
                 3.097037
             ],
-            "datemiseajour": "2022-11-02T20:36:59+00:00"
+            "datemiseajour": "2022-11-02T21:22:45+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -6077,7 +6077,7 @@
                 50.63041
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -6100,7 +6100,7 @@
                 50.61989,
                 3.084357
             ],
-            "datemiseajour": "2022-11-02T20:36:59+00:00"
+            "datemiseajour": "2022-11-02T21:22:44+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -6109,7 +6109,7 @@
                 50.61989
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -6132,7 +6132,7 @@
                 50.64584,
                 3.112744
             ],
-            "datemiseajour": "2022-11-02T20:36:59+00:00"
+            "datemiseajour": "2022-11-02T21:22:45+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -6141,7 +6141,7 @@
                 50.64584
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -6164,7 +6164,7 @@
                 50.636105,
                 3.106438
             ],
-            "datemiseajour": "2022-11-02T20:36:59+00:00"
+            "datemiseajour": "2022-11-02T21:22:45+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -6173,7 +6173,7 @@
                 50.636105
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -6196,7 +6196,7 @@
                 50.631135,
                 3.008346
             ],
-            "datemiseajour": "2022-11-02T20:37:00+00:00"
+            "datemiseajour": "2022-11-02T21:22:46+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -6205,20 +6205,20 @@
                 50.631135
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
         "recordid": "675ff6a8888591acc4fd5098af8c96601dd1562c",
         "fields": {
-            "nbvelosdispo": 15,
-            "nbplacesdispo": 25,
+            "nbvelosdispo": 16,
+            "nbplacesdispo": 24,
             "libelle": 14,
             "adresse": "AVENUE LEON JOUHAUX",
             "nom": "CHAMP DE MARS",
-            "etat": "HORS SERVICE",
+            "etat": "EN SERVICE",
             "commune": "LILLE",
-            "etatconnexion": "DISCONNECTED",
+            "etatconnexion": "CONNECTED",
             "type": "AVEC TPE",
             "geo": [
                 50.6379088,
@@ -6228,7 +6228,7 @@
                 50.6379088,
                 3.0508558
             ],
-            "datemiseajour": "2022-11-02T20:36:58+00:00"
+            "datemiseajour": "2022-11-02T21:22:43+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -6237,14 +6237,14 @@
                 50.6379088
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
         "recordid": "403196846449e9112ed35de44205f1c8480fb271",
         "fields": {
-            "nbvelosdispo": 10,
-            "nbplacesdispo": 4,
+            "nbvelosdispo": 14,
+            "nbplacesdispo": 0,
             "libelle": 18,
             "adresse": "93 RUE ROYALE",
             "nom": "VOLTAIRE",
@@ -6260,7 +6260,7 @@
                 50.6428,
                 3.055932
             ],
-            "datemiseajour": "2022-11-02T20:36:58+00:00"
+            "datemiseajour": "2022-11-02T21:22:44+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -6269,20 +6269,20 @@
                 50.6428
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
         "recordid": "f01a62636f804e79af2051dc523ef4766fa169d1",
         "fields": {
-            "nbvelosdispo": 11,
-            "nbplacesdispo": 1,
+            "nbvelosdispo": 9,
+            "nbplacesdispo": 3,
             "libelle": 184,
             "adresse": "18 BIS RUE DU PARC",
             "nom": "RUE DU PARC",
-            "etat": "EN SERVICE",
+            "etat": "HORS SERVICE",
             "commune": "LA MADELEINE",
-            "etatconnexion": "CONNECTED",
+            "etatconnexion": "DISCONNECTED",
             "type": "AVEC TPE",
             "geo": [
                 50.651107,
@@ -6292,7 +6292,7 @@
                 50.651107,
                 3.0678
             ],
-            "datemiseajour": "2022-11-02T20:37:00+00:00"
+            "datemiseajour": "2022-11-02T21:22:46+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -6301,7 +6301,7 @@
                 50.651107
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -6324,7 +6324,7 @@
                 50.64891,
                 3.078336
             ],
-            "datemiseajour": "2022-11-02T20:36:59+00:00"
+            "datemiseajour": "2022-11-02T21:22:45+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -6333,14 +6333,14 @@
                 50.64891
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
         "recordid": "dae4b573b2e11dc4c22186b9e004101d1c7c7c2b",
         "fields": {
-            "nbvelosdispo": 9,
-            "nbplacesdispo": 9,
+            "nbvelosdispo": 7,
+            "nbplacesdispo": 11,
             "libelle": 124,
             "adresse": "916-920 AV DE LA R\u00c9PUBLIQUE",
             "nom": "CLEMENCEAU HIPPODROME",
@@ -6356,7 +6356,7 @@
                 50.6618,
                 3.096235
             ],
-            "datemiseajour": "2022-11-02T20:37:00+00:00"
+            "datemiseajour": "2022-11-02T21:22:45+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -6365,7 +6365,7 @@
                 50.6618
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -6388,7 +6388,7 @@
                 50.61915,
                 3.126501
             ],
-            "datemiseajour": "2022-11-02T20:37:00+00:00"
+            "datemiseajour": "2022-11-02T21:22:46+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -6397,7 +6397,7 @@
                 50.61915
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -6420,7 +6420,7 @@
                 50.649644,
                 3.03812
             ],
-            "datemiseajour": "2022-11-02T20:37:00+00:00"
+            "datemiseajour": "2022-11-02T21:22:46+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -6429,20 +6429,20 @@
                 50.649644
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
         "recordid": "922427985a6d886aa735ca8181a0c6d8b62f6246",
         "fields": {
-            "nbvelosdispo": 15,
-            "nbplacesdispo": 9,
+            "nbvelosdispo": 16,
+            "nbplacesdispo": 8,
             "libelle": 98,
             "adresse": "ANGLE DE LA RUE GAMBETTA",
             "nom": "PLACE DU MARCHE",
-            "etat": "EN SERVICE",
+            "etat": "HORS SERVICE",
             "commune": "LA MADELEINE",
-            "etatconnexion": "CONNECTED",
+            "etatconnexion": "DISCONNECTED",
             "type": "AVEC TPE",
             "geo": [
                 50.6549,
@@ -6452,7 +6452,7 @@
                 50.6549,
                 3.068756
             ],
-            "datemiseajour": "2022-11-02T20:36:59+00:00"
+            "datemiseajour": "2022-11-02T21:22:45+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -6461,7 +6461,7 @@
                 50.6549
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -6484,7 +6484,7 @@
                 50.62486,
                 3.116677
             ],
-            "datemiseajour": "2022-11-02T20:36:59+00:00"
+            "datemiseajour": "2022-11-02T21:22:45+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -6493,7 +6493,7 @@
                 50.62486
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -6516,7 +6516,7 @@
                 50.728798,
                 3.154051
             ],
-            "datemiseajour": "2022-11-02T20:37:01+00:00"
+            "datemiseajour": "2022-11-02T21:22:47+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -6525,7 +6525,7 @@
                 50.728798
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -6548,7 +6548,7 @@
                 50.670155,
                 3.154898
             ],
-            "datemiseajour": "2022-11-02T20:37:01+00:00"
+            "datemiseajour": "2022-11-02T21:22:47+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -6557,7 +6557,7 @@
                 50.670155
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -6580,7 +6580,7 @@
                 50.65281,
                 3.02604
             ],
-            "datemiseajour": "2022-11-02T20:37:01+00:00"
+            "datemiseajour": "2022-11-02T21:22:47+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -6589,7 +6589,7 @@
                 50.65281
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -6600,9 +6600,9 @@
             "libelle": 304,
             "adresse": "Avenue de Flandres",
             "nom": "LE SART",
-            "etat": "EN SERVICE",
+            "etat": "HORS SERVICE",
             "commune": "VILLENEUVE D'ASCQ",
-            "etatconnexion": "CONNECTED",
+            "etatconnexion": "DISCONNECTED",
             "type": "AVEC TPE",
             "geo": [
                 50.66351,
@@ -6612,7 +6612,7 @@
                 50.66351,
                 3.138682
             ],
-            "datemiseajour": "2022-11-02T20:37:01+00:00"
+            "datemiseajour": "2022-11-02T21:22:47+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -6621,7 +6621,7 @@
                 50.66351
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -6644,7 +6644,7 @@
                 50.61352,
                 3.03677
             ],
-            "datemiseajour": "2022-11-02T20:37:00+00:00"
+            "datemiseajour": "2022-11-02T21:22:46+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -6653,14 +6653,14 @@
                 50.61352
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
         "recordid": "8044d0012efe2d813f54262ca021abcd4b28b165",
         "fields": {
-            "nbvelosdispo": 28,
-            "nbplacesdispo": 3,
+            "nbvelosdispo": 27,
+            "nbplacesdispo": 4,
             "libelle": 5,
             "adresse": "73 RUE MASSENA",
             "nom": "MASSENA",
@@ -6676,7 +6676,7 @@
                 50.63156,
                 3.054738
             ],
-            "datemiseajour": "2022-11-02T20:36:58+00:00"
+            "datemiseajour": "2022-11-02T21:22:43+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -6685,7 +6685,7 @@
                 50.63156
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -6708,7 +6708,7 @@
                 50.704693,
                 3.160515
             ],
-            "datemiseajour": "2022-11-02T20:37:01+00:00"
+            "datemiseajour": "2022-11-02T21:22:47+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -6717,14 +6717,14 @@
                 50.704693
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
         "recordid": "691d830cf53ede39a4f296bca05caed9ac3e5656",
         "fields": {
-            "nbvelosdispo": 10,
-            "nbplacesdispo": 8,
+            "nbvelosdispo": 11,
+            "nbplacesdispo": 7,
             "libelle": 65,
             "adresse": "70 RUE DE LOOS",
             "nom": "PLACE TACQ",
@@ -6740,7 +6740,7 @@
                 50.621128,
                 3.035483
             ],
-            "datemiseajour": "2022-11-02T20:36:59+00:00"
+            "datemiseajour": "2022-11-02T21:22:44+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -6749,14 +6749,14 @@
                 50.621128
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
         "recordid": "d846e2c83ca5f59f94bff15f54758954ac01b0a7",
         "fields": {
-            "nbvelosdispo": 8,
-            "nbplacesdispo": 12,
+            "nbvelosdispo": 10,
+            "nbplacesdispo": 10,
             "libelle": 167,
             "adresse": "Rue L\u00e9on Gambetta",
             "nom": "TRANQUILLIT\u00c9",
@@ -6772,7 +6772,7 @@
                 50.626382,
                 3.047066
             ],
-            "datemiseajour": "2022-11-02T20:37:00+00:00"
+            "datemiseajour": "2022-11-02T21:22:46+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -6781,7 +6781,7 @@
                 50.626382
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -6804,7 +6804,7 @@
                 50.631298,
                 3.126914
             ],
-            "datemiseajour": "2022-11-02T20:37:00+00:00"
+            "datemiseajour": "2022-11-02T21:22:46+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -6813,7 +6813,7 @@
                 50.631298
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -6836,7 +6836,7 @@
                 50.718204,
                 3.15749
             ],
-            "datemiseajour": "2022-11-02T20:37:01+00:00"
+            "datemiseajour": "2022-11-02T21:22:47+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -6845,14 +6845,14 @@
                 50.718204
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
         "recordid": "0a81b540aa22bf951696b1195c96fff1f3b06395",
         "fields": {
-            "nbvelosdispo": 6,
-            "nbplacesdispo": 14,
+            "nbvelosdispo": 5,
+            "nbplacesdispo": 15,
             "libelle": 60,
             "adresse": "114 RUE DE DOUAI",
             "nom": "TREVISE",
@@ -6868,7 +6868,7 @@
                 50.621185,
                 3.072363
             ],
-            "datemiseajour": "2022-11-02T20:36:59+00:00"
+            "datemiseajour": "2022-11-02T21:22:44+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -6877,7 +6877,7 @@
                 50.621185
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -6900,7 +6900,7 @@
                 50.684757,
                 3.171974
             ],
-            "datemiseajour": "2022-11-02T20:37:01+00:00"
+            "datemiseajour": "2022-11-02T21:22:46+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -6909,7 +6909,7 @@
                 50.684757
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -6932,7 +6932,7 @@
                 50.64989,
                 3.042045
             ],
-            "datemiseajour": "2022-11-02T20:37:00+00:00"
+            "datemiseajour": "2022-11-02T21:22:46+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -6941,7 +6941,7 @@
                 50.64989
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -6964,7 +6964,7 @@
                 50.644943,
                 3.036932
             ],
-            "datemiseajour": "2022-11-02T20:37:00+00:00"
+            "datemiseajour": "2022-11-02T21:22:46+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -6973,14 +6973,14 @@
                 50.644943
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
         "recordid": "95abc0edc9a428a40fa0e2c50f2cdc79b3436211",
         "fields": {
-            "nbvelosdispo": 8,
-            "nbplacesdispo": 15,
+            "nbvelosdispo": 11,
+            "nbplacesdispo": 12,
             "libelle": 39,
             "adresse": "298 RUE LEON GAMBETTA",
             "nom": "MARCHE DE WAZEMMES",
@@ -6996,7 +6996,7 @@
                 50.627674,
                 3.050173
             ],
-            "datemiseajour": "2022-11-02T20:36:59+00:00"
+            "datemiseajour": "2022-11-02T21:22:44+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -7005,7 +7005,7 @@
                 50.627674
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -7028,7 +7028,7 @@
                 50.655098,
                 3.051201
             ],
-            "datemiseajour": "2022-11-02T20:37:00+00:00"
+            "datemiseajour": "2022-11-02T21:22:46+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -7037,14 +7037,14 @@
                 50.655098
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
         "recordid": "1563ce813e69b524778fe3be2cedcab8dc4336db",
         "fields": {
-            "nbvelosdispo": 15,
-            "nbplacesdispo": 7,
+            "nbvelosdispo": 18,
+            "nbplacesdispo": 4,
             "libelle": 69,
             "adresse": "11 AVENUE VERHAEREN",
             "nom": "CHASSEURS DE DRIANT",
@@ -7060,7 +7060,7 @@
                 50.61893,
                 3.032539
             ],
-            "datemiseajour": "2022-11-02T20:36:59+00:00"
+            "datemiseajour": "2022-11-02T21:22:44+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -7069,7 +7069,7 @@
                 50.61893
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -7092,7 +7092,7 @@
                 50.692368,
                 3.185092
             ],
-            "datemiseajour": "2022-11-02T20:37:01+00:00"
+            "datemiseajour": "2022-11-02T21:22:47+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -7101,7 +7101,7 @@
                 50.692368
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -7124,7 +7124,7 @@
                 50.61606,
                 3.132006
             ],
-            "datemiseajour": "2022-11-02T20:37:00+00:00"
+            "datemiseajour": "2022-11-02T21:22:46+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -7133,7 +7133,7 @@
                 50.61606
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -7156,7 +7156,7 @@
                 50.61682,
                 3.140808
             ],
-            "datemiseajour": "2022-11-02T20:37:00+00:00"
+            "datemiseajour": "2022-11-02T21:22:46+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -7165,7 +7165,7 @@
                 50.61682
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -7188,7 +7188,7 @@
                 50.671517,
                 3.183123
             ],
-            "datemiseajour": "2022-11-02T20:37:01+00:00"
+            "datemiseajour": "2022-11-02T21:22:47+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -7197,7 +7197,7 @@
                 50.671517
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -7220,7 +7220,7 @@
                 50.665968,
                 3.049462
             ],
-            "datemiseajour": "2022-11-02T20:37:00+00:00"
+            "datemiseajour": "2022-11-02T21:22:46+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -7229,7 +7229,7 @@
                 50.665968
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -7252,7 +7252,7 @@
                 50.695477,
                 3.164222
             ],
-            "datemiseajour": "2022-11-02T20:37:01+00:00"
+            "datemiseajour": "2022-11-02T21:22:47+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -7261,7 +7261,7 @@
                 50.695477
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -7284,7 +7284,7 @@
                 50.73418,
                 3.1681724
             ],
-            "datemiseajour": "2022-11-02T20:37:01+00:00"
+            "datemiseajour": "2022-11-02T21:22:47+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -7293,7 +7293,7 @@
                 50.73418
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -7316,7 +7316,7 @@
                 50.72551,
                 3.156554
             ],
-            "datemiseajour": "2022-11-02T20:37:01+00:00"
+            "datemiseajour": "2022-11-02T21:22:47+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -7325,7 +7325,7 @@
                 50.72551
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -7348,7 +7348,7 @@
                 50.72263,
                 3.150377
             ],
-            "datemiseajour": "2022-11-02T20:37:01+00:00"
+            "datemiseajour": "2022-11-02T21:22:47+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -7357,7 +7357,7 @@
                 50.72263
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -7380,7 +7380,7 @@
                 50.670865,
                 3.198875
             ],
-            "datemiseajour": "2022-11-02T20:37:01+00:00"
+            "datemiseajour": "2022-11-02T21:22:47+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -7389,14 +7389,14 @@
                 50.670865
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
         "recordid": "092c01c8b361c59bcf61f7da50f330ea3a2d0984",
         "fields": {
-            "nbvelosdispo": 11,
-            "nbplacesdispo": 5,
+            "nbvelosdispo": 10,
+            "nbplacesdispo": 6,
             "libelle": 7,
             "adresse": "7 PLACE DE STRASBOURG",
             "nom": "PLACE DE STRASBOURG",
@@ -7412,7 +7412,7 @@
                 50.633728,
                 3.055307
             ],
-            "datemiseajour": "2022-11-02T20:36:58+00:00"
+            "datemiseajour": "2022-11-02T21:22:43+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -7421,7 +7421,7 @@
                 50.633728
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -7444,7 +7444,7 @@
                 50.630855,
                 3.0226
             ],
-            "datemiseajour": "2022-11-02T20:37:00+00:00"
+            "datemiseajour": "2022-11-02T21:22:46+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -7453,7 +7453,7 @@
                 50.630855
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -7464,9 +7464,9 @@
             "libelle": 174,
             "adresse": "BOULEVARD EUGENE DUTHOIT",
             "nom": "CHU - EURASANT\u00c9",
-            "etat": "EN SERVICE",
+            "etat": "HORS SERVICE",
             "commune": "LILLE",
-            "etatconnexion": "CONNECTED",
+            "etatconnexion": "DISCONNECTED",
             "type": "AVEC TPE",
             "geo": [
                 50.607664,
@@ -7476,7 +7476,7 @@
                 50.607664,
                 3.038892
             ],
-            "datemiseajour": "2022-11-02T20:37:00+00:00"
+            "datemiseajour": "2022-11-02T21:22:46+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -7485,14 +7485,14 @@
                 50.607664
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
         "recordid": "81ac577c2588434580dfd709229834363636ba74",
         "fields": {
-            "nbvelosdispo": 14,
-            "nbplacesdispo": 0,
+            "nbvelosdispo": 13,
+            "nbplacesdispo": 1,
             "libelle": 177,
             "adresse": "2 Rue du Mar\u00e9chal Foch",
             "nom": "RUE DE LONDRES",
@@ -7508,7 +7508,7 @@
                 50.616763,
                 3.023032
             ],
-            "datemiseajour": "2022-11-02T20:37:00+00:00"
+            "datemiseajour": "2022-11-02T21:22:46+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -7517,7 +7517,7 @@
                 50.616763
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -7540,7 +7540,7 @@
                 50.699734,
                 3.174347
             ],
-            "datemiseajour": "2022-11-02T20:37:01+00:00"
+            "datemiseajour": "2022-11-02T21:22:47+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -7549,7 +7549,7 @@
                 50.699734
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -7572,7 +7572,7 @@
                 50.694714,
                 3.192643
             ],
-            "datemiseajour": "2022-11-02T20:37:01+00:00"
+            "datemiseajour": "2022-11-02T21:22:47+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -7581,7 +7581,7 @@
                 50.694714
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -7604,7 +7604,7 @@
                 50.615868,
                 3.126089
             ],
-            "datemiseajour": "2022-11-02T20:37:00+00:00"
+            "datemiseajour": "2022-11-02T21:22:46+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -7613,7 +7613,7 @@
                 50.615868
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -7636,7 +7636,7 @@
                 50.69106,
                 3.1902585
             ],
-            "datemiseajour": "2022-11-02T20:37:01+00:00"
+            "datemiseajour": "2022-11-02T21:22:46+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -7645,14 +7645,14 @@
                 50.69106
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
         "recordid": "3a2898bf67bc27a220580061867d977f9b17c708",
         "fields": {
-            "nbvelosdispo": 1,
-            "nbplacesdispo": 17,
+            "nbvelosdispo": 2,
+            "nbplacesdispo": 16,
             "libelle": 23,
             "adresse": "41 RUE DES ARTS",
             "nom": "RUE DES ARTS",
@@ -7668,7 +7668,7 @@
                 50.639107,
                 3.065548
             ],
-            "datemiseajour": "2022-11-02T20:36:58+00:00"
+            "datemiseajour": "2022-11-02T21:22:44+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -7677,7 +7677,7 @@
                 50.639107
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -7700,7 +7700,7 @@
                 50.62276,
                 3.063799
             ],
-            "datemiseajour": "2022-11-02T20:36:59+00:00"
+            "datemiseajour": "2022-11-02T21:22:44+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -7709,7 +7709,7 @@
                 50.62276
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -7732,7 +7732,7 @@
                 50.63022,
                 3.035681
             ],
-            "datemiseajour": "2022-11-02T20:36:58+00:00"
+            "datemiseajour": "2022-11-02T21:22:44+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -7741,14 +7741,14 @@
                 50.63022
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
         "recordid": "789d1545184e14b263e0ccc50dbdf3c4b1bad8e0",
         "fields": {
-            "nbvelosdispo": 4,
-            "nbplacesdispo": 14,
+            "nbvelosdispo": 0,
+            "nbplacesdispo": 18,
             "libelle": 42,
             "adresse": "15 PLACE PHILLIPPE LEBON",
             "nom": "PLACE PHILIPPE LEBON",
@@ -7764,7 +7764,7 @@
                 50.62789,
                 3.06209
             ],
-            "datemiseajour": "2022-11-02T20:36:59+00:00"
+            "datemiseajour": "2022-11-02T21:22:44+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -7773,7 +7773,7 @@
                 50.62789
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -7796,7 +7796,7 @@
                 50.634045,
                 3.030778
             ],
-            "datemiseajour": "2022-11-02T20:36:59+00:00"
+            "datemiseajour": "2022-11-02T21:22:44+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -7805,14 +7805,14 @@
                 50.634045
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
         "recordid": "51b30f64dd453782de0303b45b2ba32e054b4c87",
         "fields": {
-            "nbvelosdispo": 1,
-            "nbplacesdispo": 31,
+            "nbvelosdispo": 0,
+            "nbplacesdispo": 32,
             "libelle": 82,
             "adresse": "299 BOULEVARD DE LEEDS",
             "nom": "GARE LILLE EUROPE",
@@ -7828,7 +7828,7 @@
                 50.63999,
                 3.075204
             ],
-            "datemiseajour": "2022-11-02T20:36:59+00:00"
+            "datemiseajour": "2022-11-02T21:22:44+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -7837,7 +7837,7 @@
                 50.63999
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -7860,7 +7860,7 @@
                 50.646225,
                 3.053499
             ],
-            "datemiseajour": "2022-11-02T20:36:58+00:00"
+            "datemiseajour": "2022-11-02T21:22:43+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -7869,14 +7869,14 @@
                 50.646225
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
         "recordid": "504deb028297b81a3965a8fa4df959acc99530a9",
         "fields": {
-            "nbvelosdispo": 19,
-            "nbplacesdispo": 0,
+            "nbvelosdispo": 18,
+            "nbplacesdispo": 1,
             "libelle": 17,
             "adresse": "33 AVENUE DU PEUPLE BELGE",
             "nom": "HALLE AUX SUCRES",
@@ -7892,7 +7892,7 @@
                 50.644695,
                 3.060867
             ],
-            "datemiseajour": "2022-11-02T20:36:58+00:00"
+            "datemiseajour": "2022-11-02T21:22:44+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -7901,7 +7901,7 @@
                 50.644695
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -7924,7 +7924,7 @@
                 50.68079,
                 3.167454
             ],
-            "datemiseajour": "2022-11-02T20:37:00+00:00"
+            "datemiseajour": "2022-11-02T21:22:46+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -7933,7 +7933,7 @@
                 50.68079
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -7956,7 +7956,7 @@
                 50.72389,
                 3.160344
             ],
-            "datemiseajour": "2022-11-02T20:37:01+00:00"
+            "datemiseajour": "2022-11-02T21:22:47+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -7965,7 +7965,7 @@
                 50.72389
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -7988,7 +7988,7 @@
                 50.60642,
                 3.072209
             ],
-            "datemiseajour": "2022-11-02T20:37:00+00:00"
+            "datemiseajour": "2022-11-02T21:22:46+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -7997,7 +7997,7 @@
                 50.60642
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -8020,7 +8020,7 @@
                 50.610582,
                 3.065103
             ],
-            "datemiseajour": "2022-11-02T20:37:00+00:00"
+            "datemiseajour": "2022-11-02T21:22:46+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -8029,7 +8029,7 @@
                 50.610582
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -8052,7 +8052,7 @@
                 50.6392268,
                 3.1308745
             ],
-            "datemiseajour": "2022-11-02T20:37:00+00:00"
+            "datemiseajour": "2022-11-02T21:22:46+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -8061,7 +8061,7 @@
                 50.6392268
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -8084,7 +8084,7 @@
                 50.681797,
                 3.194122
             ],
-            "datemiseajour": "2022-11-02T20:37:01+00:00"
+            "datemiseajour": "2022-11-02T21:22:46+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -8093,7 +8093,7 @@
                 50.681797
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -8116,7 +8116,7 @@
                 50.63599,
                 3.13566
             ],
-            "datemiseajour": "2022-11-02T20:37:01+00:00"
+            "datemiseajour": "2022-11-02T21:22:47+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -8125,14 +8125,14 @@
                 50.63599
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
         "recordid": "b492e5cf09071b0014a0405f029919f87e52c2bf",
         "fields": {
-            "nbvelosdispo": 3,
-            "nbplacesdispo": 13,
+            "nbvelosdispo": 7,
+            "nbplacesdispo": 9,
             "libelle": 166,
             "adresse": "100 BOULEVARD VAUBAN",
             "nom": "CAMPUS ST RAPHAEL",
@@ -8148,7 +8148,7 @@
                 50.63084,
                 3.04483
             ],
-            "datemiseajour": "2022-11-02T20:37:00+00:00"
+            "datemiseajour": "2022-11-02T21:22:46+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -8157,14 +8157,14 @@
                 50.63084
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
         "recordid": "6f762a8cbac90a365c64760e0a372537cc4f8aa5",
         "fields": {
-            "nbvelosdispo": 6,
-            "nbplacesdispo": 10,
+            "nbvelosdispo": 5,
+            "nbplacesdispo": 11,
             "libelle": 171,
             "adresse": "235 Bld PAUL PAINLEVE",
             "nom": "AUBERGE DE JEUNESSE",
@@ -8180,7 +8180,7 @@
                 50.62479,
                 3.080467
             ],
-            "datemiseajour": "2022-11-02T20:37:00+00:00"
+            "datemiseajour": "2022-11-02T21:22:46+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -8189,7 +8189,7 @@
                 50.62479
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -8200,9 +8200,9 @@
             "libelle": 201,
             "adresse": "272, RUE VERTE",
             "nom": "EDHEC",
-            "etat": "HORS SERVICE",
+            "etat": "EN SERVICE",
             "commune": "CROIX",
-            "etatconnexion": "DISCONNECTED",
+            "etatconnexion": "CONNECTED",
             "type": "SANS TPE",
             "geo": [
                 50.673943,
@@ -8212,7 +8212,7 @@
                 50.673943,
                 3.163443
             ],
-            "datemiseajour": "2022-11-02T20:37:00+00:00"
+            "datemiseajour": "2022-11-02T21:22:46+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -8221,7 +8221,7 @@
                 50.673943
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -8244,7 +8244,7 @@
                 50.710735,
                 3.159881
             ],
-            "datemiseajour": "2022-11-02T20:37:01+00:00"
+            "datemiseajour": "2022-11-02T21:22:47+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -8253,7 +8253,7 @@
                 50.710735
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -8276,7 +8276,7 @@
                 50.7004,
                 3.161378
             ],
-            "datemiseajour": "2022-11-02T20:37:01+00:00"
+            "datemiseajour": "2022-11-02T21:22:47+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -8285,7 +8285,7 @@
                 50.7004
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     },
     {
         "datasetid": "vlille-realtime",
@@ -8308,7 +8308,7 @@
                 50.71922,
                 3.163396
             ],
-            "datemiseajour": "2022-11-02T20:37:01+00:00"
+            "datemiseajour": "2022-11-02T21:22:47+00:00"
         },
         "geometry": {
             "type": "Point",
@@ -8317,6 +8317,6 @@
                 50.71922
             ]
         },
-        "record_timestamp": "2022-11-02T20:40:01.332Z"
+        "record_timestamp": "2022-11-02T21:30:02.535Z"
     }
 ]
