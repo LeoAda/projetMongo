@@ -7,10 +7,9 @@ import dateutil.parser
 import time
 
 
-client = MongoClient("mongodb+srv://user:password@yyyyyyyyyy.xxxxxxxxx.mongodb.net/?retryWrites=true&w=majority", server_api=ServerApi('1'))
+client = MongoClient("mongodb+srv://leo:leo@cluster.fpruq9w.mongodb.net/?retryWrites=true&w=majority", server_api=ServerApi('1'))
 
 db = client.vls
-
 
 def get_vlille():
     url = "https://opendata.lillemetropole.fr/api/records/1.0/search/?dataset=vlille-realtime&q=&rows=3000&facet=libelle&facet=nom&facet=commune&facet=etat&facet=type&facet=etatconnexion"
