@@ -39,6 +39,8 @@ def get_json_file():
 
 get_json_file()
 
+# TODO: Edit formtage db station en enlevant size bike et size dock. Ils doivent être dans la bd datas
+
 velo_lille_to_insert = [
     {
         '_id': elem.get('fields', {}).get('libelle'),
