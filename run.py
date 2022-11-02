@@ -7,7 +7,18 @@ import dateutil.parser
 import time
 
 
-client = MongoClient("mongodb+srv://leo:leo@cluster.fpruq9w.mongodb.net/?retryWrites=true&w=majority", server_api=ServerApi('1'))
+import os
+from dotenv import load_dotenv
+
+# Import dotenv variable
+load_dotenv()
+MONGO_USERNAME = os.getenv('MONGO_USERNAME')
+MONGO_PASSWORD = os.getenv('MONGO_PASSWORD')
+MONGO_CLUSTER_NAME = os.getenv('MONGO_CLUSTER_NAME')
+MONGO_DATABASE_NAME = os.getenv('MONGO_DATABASE_NAME')
+
+
+client = MongoClient(f"mongodb+srv://{MONGO_USERNAME}:{MONGO_PASSWORD}@{MONGO_CLUSTER_NAME}.{MONGO_DATABASE_NAME}.mongodb.net/?retryWrites=true&w=majority", server_api=ServerApi('1'))
 
 db = client.vls
 
@@ -35,7 +46,7 @@ vlilles_to_insert = [
     for elem in vlilles
 ]
 
-try: 
+try:
     db.stations.insert_many(vlilles_to_insert, ordered=False)
 except:
     pass
@@ -54,7 +65,7 @@ while True:
         }
         for elem in vlilles
     ]
-    
+
     for data in datas:
         db.datas.update_one({'date': data["date"], "station_id": data["station_id"]}, { "$set": data }, upsert=True)
 
