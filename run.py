@@ -31,22 +31,52 @@ def get_json_file():
     with open('velo_paris.json', 'w') as outfile:
         outfile.write(json_velo_paris)
 
-get_json_file()
+# get_json_file()
 
-# vlilles_to_insert = [
-#     {
-#         '_id': elem.get('fields', {}).get('libelle'),
-#         'name': elem.get('fields', {}).get('nom', '').title(),
-#         'geometry': elem.get('geometry'),
-#         'size': elem.get('fields', {}).get('nbvelosdispo') + elem.get('fields', {}).get('nbplacesdispo'),
-#         'source': {
-#             'dataset': 'Lille',
-#             'id_ext': elem.get('fields', {}).get('libelle')
-#         },
-#         'tpe': elem.get('fields', {}).get('type', '') == 'AVEC TPE'
-#     }
-#     for elem in velo_lille
-# ]
+vlilles_to_insert = [
+    {
+        '_id': elem.get('fields', {}).get('libelle'),
+        'name': elem.get('fields', {}).get('nom', '').title(),
+        'geometry': elem.get('geometry'),
+        'size': {
+            'size_total': elem.get('fields', {}).get('nbvelosdispo') + elem.get('fields', {}).get('nbplacesdispo'),
+            'size_bike_available': elem.get('fields', {}).get('nbvelosdispo'),
+            'size_dock_free': elem.get('fields', {}).get('nbplacesdispo')
+        },
+        'source': {
+            'dataset': 'Lille',
+            'id_ext': elem.get('fields', {}).get('libelle')
+        },
+        'tpe': elem.get('fields', {}).get('type', '') == 'AVEC TPE',
+        'status': elem.get('fields', {}).get('etat') == 'EN SERVICE'
+    }
+    for elem in velo_lille
+]
+
+print(vlilles_to_insert[1])
+
+velib_to_insert = [
+    {
+        '_id': elem.get('fields', {}).get('stationcode'),
+        'name': elem.get('fields', {}).get('name', '').title(),
+        'geometry': elem.get('geometry'),
+        'size': {
+            'size_total': elem.get('fields', {}).get('capacity'),
+            'size_bike_available': elem.get('fields', {}).get('numbikesavailable'),
+            'size_dock_free': elem.get('fields', {}).get('numdocksavailable')
+        },
+        'source': {
+            'dataset': 'Paris',
+            'id_ext': elem.get('fields', {}).get('stationcode')
+        },
+        'tpe': elem.get('fields', {}).get('is_renting') == 'OUI',
+        'status': not ((elem.get('fields', {}).get('numbikesavailable') + elem.get('fields', {}).get('numdocksavailable')) == 0 
+            or elem.get('fields', {}).get('is_installed') == "NON")
+    }
+    for elem in velo_paris
+]
+
+print(velib_to_insert[0])
 
 # try: 
 #     db.stations.insert_many(vlilles_to_insert, ordered=False)
