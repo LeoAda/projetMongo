@@ -10,6 +10,8 @@ import time
 import os
 from dotenv import load_dotenv
 
+from geopy.distance import distance
+
 # Import dotenv variable
 load_dotenv()
 MONGO_USERNAME = os.getenv('MONGO_USERNAME')
@@ -51,7 +53,22 @@ try:
 except:
     pass
 
+point_a = (41.490080000000000000, -71.312796)
+point_b = (41.4, -81.695391)
+print(distance(point_a, point_b).km)
 
+def get_nearest_station(lat, lng):
+    stations = db.stations.find({
+        'geometry': {
+            '$near': {
+                '$geometry': {
+                    'type': 'Point',
+                    'coordinates': [lng, lat]
+                }
+            }
+        }
+    })
+    return stations[0]
 
 while True:
     print('update')
@@ -69,4 +86,8 @@ while True:
     for data in datas:
         db.datas.update_one({'date': data["date"], "station_id": data["station_id"]}, { "$set": data }, upsert=True)
 
+    #put 2d object in db
+    db.stations.create_index([('geometry', '2dsphere')])
+    
+    print(get_nearest_station(50.626457, 3.068455))
     time.sleep(10)
