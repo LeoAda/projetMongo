@@ -8,7 +8,7 @@ jobs:
     name: Move card to In Progress
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/add-to-project@0.3.0
+      - uses: actions/add-to-project@v0.3.0
         with:
           project-url: https://github.com/users/LeoAda/projects/1
           github-token: ${{ secrets.ACCESS_TOKEN }}
