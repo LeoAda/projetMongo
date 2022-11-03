@@ -75,13 +75,13 @@ velo_lille_to_insert = [
 
 velo_paris_to_insert = [
     {
-        '_id': int(elem.get('fields', {}).get('stationcode').replace('_relais', 0)),
+        '_id': int(elem.get('fields', {}).get('stationcode').replace('_relais', "0")),
         'name': elem.get('fields', {}).get('name', '').title(),
         'geometry': elem.get('geometry'),
         'size': elem.get('fields', {}).get('capacity'),
         'source': {
             'dataset': 'Paris',
-            'id_ext': int(elem.get('fields', {}).get('stationcode').replace('_relais', 0))
+            'id_ext': int(elem.get('fields', {}).get('stationcode').replace('_relais', "0"))
         },
         'tpe': elem.get('fields', {}).get('is_renting') == 'OUI',
     }
@@ -192,7 +192,7 @@ while True:
             "bike_available": elem.get('fields', {}).get('numbikesavailable'),
             "stand_available": elem.get('fields', {}).get('numdocksavailable'),
             "date": dateutil.parser.parse(elem.get('fields', {}).get('duedate')),
-            "station_id": int(elem.get('fields', {}).get('stationcode').replace('_relais', 0)),
+            "station_id": int(elem.get('fields', {}).get('stationcode').replace('_relais', "0")),
             'status': not ((elem.get('fields', {}).get('numbikesavailable') + elem.get('fields', {}).get('numdocksavailable')) == 0 
                 or elem.get('fields', {}).get('is_installed') == "NON")
         }
