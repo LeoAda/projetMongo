@@ -11,4 +11,4 @@ jobs:
         with:
           project: Projet Mongo Backlog
           column: In Review
-          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          repo-token: ${{ secrets.ACCESS_TOKEN }}
