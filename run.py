@@ -75,13 +75,13 @@ velo_lille_to_insert = [
 
 velo_paris_to_insert = [
     {
-        '_id': elem.get('fields', {}).get('stationcode'),
+        '_id': int(elem.get('fields', {}).get('stationcode')),
         'name': elem.get('fields', {}).get('name', '').title(),
         'geometry': elem.get('geometry'),
         'size': elem.get('fields', {}).get('capacity'),
         'source': {
             'dataset': 'Paris',
-            'id_ext': elem.get('fields', {}).get('stationcode')
+            'id_ext': int(elem.get('fields', {}).get('stationcode'))
         },
         'tpe': elem.get('fields', {}).get('is_renting') == 'OUI',
     }
@@ -96,7 +96,7 @@ velo_lyon_to_insert = [
         'name': elem.get('name', '').title(),
         'geometry': {
             'type': 'Point',
-            'coordinates': [elem.get('lng'), elem.get('lat')]
+            'coordinates': [float(elem.get('lng')), float(elem.get('lat'))]
         },
         'size': elem.get('bike_stands'),
         'source': {
@@ -112,7 +112,7 @@ velo_lyon_to_insert = [
 
 velo_rennes_to_insert = [
     {
-        '_id': elem.get('fields', {}).get('idstation'),
+        '_id': int(elem.get('fields', {}).get('idstation')),
         'name': elem.get('fields', {}).get('nom', '').title(),
         'geometry': elem.get('geometry'),
         'size': elem.get('fields', {}).get('nombreemplacementsactuels'),
@@ -192,7 +192,7 @@ while True:
             "bike_available": elem.get('fields', {}).get('numbikesavailable'),
             "stand_available": elem.get('fields', {}).get('numdocksavailable'),
             "date": dateutil.parser.parse(elem.get('fields', {}).get('duedate')),
-            "station_id": elem.get('fields', {}).get('stationcode'),
+            "station_id": int(elem.get('fields', {}).get('stationcode')),
             'status': not ((elem.get('fields', {}).get('numbikesavailable') + elem.get('fields', {}).get('numdocksavailable')) == 0 
                 or elem.get('fields', {}).get('is_installed') == "NON")
         }
@@ -215,7 +215,7 @@ while True:
             "bike_available": elem.get('fields', {}).get('nombrevelosdisponibles'),
             "stand_available": elem.get('fields', {}).get('nombreemplacementsdisponibles'),
             "date": dateutil.parser.parse(elem.get('fields', {}).get('lastupdate')),
-            "station_id": elem.get('fields', {}).get('idstation'),
+            "station_id": int(elem.get('fields', {}).get('idstation')),
             'status': elem.get('fields', {}).get('etat') == 'En fonctionnement'
         }
         for elem in velo_rennes
