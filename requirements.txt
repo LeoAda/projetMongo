@@ -2,4 +2,3 @@ pymongo
 requests
 python-dateutil
 python-dotenv
-geopy
