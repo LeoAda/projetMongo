@@ -39,75 +39,101 @@ def get_json_file():
 
 get_json_file()
 
-# TODO: Edit formatage db station en enlevant size bike et size dock. Ils doivent être dans la bd datas
+# ==================== LILLE ====================
 
 velo_lille_to_insert = [
     {
         '_id': elem.get('fields', {}).get('libelle'),
         'name': elem.get('fields', {}).get('nom', '').title(),
         'geometry': elem.get('geometry'),
-        'size': {
-            'size_total': elem.get('fields', {}).get('nbvelosdispo') + elem.get('fields', {}).get('nbplacesdispo'),
-            'size_bike_available': elem.get('fields', {}).get('nbvelosdispo'),
-            'size_dock_free': elem.get('fields', {}).get('nbplacesdispo')
-        },
+        'size': elem.get('fields', {}).get('nbvelosdispo') + elem.get('fields', {}).get('nbplacesdispo'),
         'source': {
             'dataset': 'Lille',
             'id_ext': elem.get('fields', {}).get('libelle')
         },
         'tpe': elem.get('fields', {}).get('type', '') == 'AVEC TPE',
-        'status': elem.get('fields', {}).get('etat') == 'EN SERVICE'
     }
     for elem in velo_lille
 ]
 
-print(velo_lille_to_insert[1])
+datas_velo_lille_update = [
+        {
+            "bike_availbale": elem.get('fields', {}).get('nbvelosdispo'),
+            "stand_availbale": elem.get('fields', {}).get('nbplacesdispo'),
+            "date": dateutil.parser.parse(elem.get('fields', {}).get('datemiseajour')),
+            "station_id": elem.get('fields', {}).get('libelle'),
+            'status': elem.get('fields', {}).get('etat') == 'EN SERVICE'
+        }
+        for elem in velo_lille
+    ]
+
+# ==================== PARIS ====================
 
 velo_paris_to_insert = [
     {
         '_id': elem.get('fields', {}).get('stationcode'),
         'name': elem.get('fields', {}).get('name', '').title(),
         'geometry': elem.get('geometry'),
-        'size': {
-            'size_total': elem.get('fields', {}).get('capacity'),
-            'size_bike_available': elem.get('fields', {}).get('numbikesavailable'),
-            'size_dock_free': elem.get('fields', {}).get('numdocksavailable')
-        },
+        'size': elem.get('fields', {}).get('capacity'),
         'source': {
             'dataset': 'Paris',
             'id_ext': elem.get('fields', {}).get('stationcode')
         },
         'tpe': elem.get('fields', {}).get('is_renting') == 'OUI',
-        'status': not ((elem.get('fields', {}).get('numbikesavailable') + elem.get('fields', {}).get('numdocksavailable')) == 0 
-            or elem.get('fields', {}).get('is_installed') == "NON")
     }
     for elem in velo_paris
 ]
 
-print(velo_paris_to_insert[0])
+datas_velo_paris_update = [
+        {
+            "bike_availbale": elem.get('fields', {}).get('numbikesavailable'),
+            "stand_availbale": elem.get('fields', {}).get('numdocksavailable'),
+            "date": dateutil.parser.parse(elem.get('fields', {}).get('duedate')),
+            "station_id": elem.get('fields', {}).get('stationcode'),
+            'status': not ((elem.get('fields', {}).get('numbikesavailable') + elem.get('fields', {}).get('numdocksavailable')) == 0 
+                or elem.get('fields', {}).get('is_installed') == "NON")
+        }
+        for elem in velo_paris
+    ]
 
-# TODO : velo_lyon_to_insert
+# ==================== LYON ====================
 
 velo_lyon_to_insert = [
     {
-        '_id': elem.get('fields', {}).get('stationcode'),
-        'name': elem.get('fields', {}).get('name', '').title(),
-        'geometry': elem.get('geometry'),
-        'size': {
-            'size_total': elem.get('fields', {}).get('capacity'),
-            'size_bike_available': elem.get('fields', {}).get('numbikesavailable'),
-            'size_dock_free': elem.get('fields', {}).get('numdocksavailable')
+        '_id': elem.get('number'),
+        'name': elem.get('name', '').title(),
+        'geometry': {
+            'type': 'Point',
+            'coordinates': [elem.get('lng'), elem.get('lat')]
         },
+        'size': elem.get('bike_stands'),
         'source': {
-            'dataset': 'Paris',
-            'id_ext': elem.get('fields', {}).get('stationcode')
+            'dataset': 'Lyon',
+            'id_ext': elem.get('number')
         },
-        'tpe': elem.get('fields', {}).get('is_renting') == 'OUI',
-        'status': not ((elem.get('fields', {}).get('numbikesavailable') + elem.get('fields', {}).get('numdocksavailable')) == 0 
-            or elem.get('fields', {}).get('is_installed') == "NON")
+        'tpe': elem.get('banking', ''),
     }
-    for elem in velo_paris
+    for elem in velo_lyon
 ]
+
+datas_velo_lyon_update = [
+        {
+            "bike_availbale": elem.get('available_bikes'),
+            "stand_availbale": elem.get('available_bike_stands'),
+            "date": dateutil.parser.parse(elem.get('last_update').replace('T', '') + ("+00:00")),
+            "station_id": elem.get('number'),
+            'status': elem.get('status') == 'OPEN'
+        }
+        for elem in velo_lyon
+    ]
+
+print("Lille : ", velo_lille_to_insert[0])
+print("Lille : ", datas_velo_lille_update[0])
+print("Paris : ", velo_paris_to_insert[0])
+print("Paris : ", datas_velo_paris_update[0])
+print("Lyon : ", velo_lyon_to_insert[0])
+print("Lyon : ", datas_velo_lyon_update[0])
+
 
 # try: 
 #     db.stations.insert_many(vlilles_to_insert, ordered=False)
