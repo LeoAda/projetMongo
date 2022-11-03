@@ -23,9 +23,6 @@ URL_API_LILLE = "https://opendata.lillemetropole.fr/api/records/1.0/search/?data
 URL_API_LYON = "https://download.data.grandlyon.com/ws/rdata/jcd_jcdecaux.jcdvelov/all.json?maxfeatures=-1&start=1"
 URL_API_RENNES = "https://data.rennesmetropole.fr/api/records/1.0/search/?dataset=etat-des-stations-le-velo-star-en-temps-reel&q=&rows=-1&facet=nom&facet=etat&facet=nombreemplacementsactuels&facet=nombreemplacementsdisponibles&facet=nombrevelosdisponibles"
 
-# client = MongoClient("mongodb+srv://user:password@yyyyyyyyyy.xxxxxxxxx.mongodb.net/?retryWrites=true&w=majority", server_api=ServerApi('1'))
-
-# db = client.vls
 
 def get_velo(url):
     response = requests.request("GET", url)
@@ -170,12 +167,15 @@ def get_stations_around(lat, lng, radius):
 
 while True:
     print('update')
-
+    print("lille")
     velo_lille = get_velo(URL_API_LILLE)
+    print("paris")
     velo_paris = get_velo(URL_API_PARIS)
+    print("lyon")
     velo_lyon = get_velo(URL_API_LYON)
+    print("rennes")
     velo_rennes = get_velo(URL_API_RENNES)
-
+    print("lille")
     datas_velo_lille_update = [
         {
             "bike_available": elem.get('fields', {}).get('nbvelosdispo'),
@@ -186,7 +186,7 @@ while True:
         }
         for elem in velo_lille
     ]
-
+    print("paris")
     datas_velo_paris_update = [
         {
             "bike_available": elem.get('fields', {}).get('numbikesavailable'),
@@ -198,7 +198,7 @@ while True:
         }
         for elem in velo_paris
     ]
-
+    print("lyon")
     datas_velo_lyon_update = [
         {
             "bike_available": elem.get('available_bikes'),
@@ -209,7 +209,7 @@ while True:
         }
         for elem in velo_lyon
     ]
-
+    print("rennes")
     datas_velo_rennes_update = [
         {
             "bike_available": elem.get('fields', {}).get('nombrevelosdisponibles'),
@@ -222,10 +222,10 @@ while True:
     ]
 
     datas = datas_velo_lille_update + datas_velo_paris_update + datas_velo_lyon_update + datas_velo_rennes_update
-
+    print("update ")
     for data in datas:
         db.datas.update_one({'date': data["date"], "station_id": data["station_id"]}, {"$set": data}, upsert=True)
-
+    print("fonction leo pu")
     # Index needed for geoNear and text search
     db.stations.create_index([('geometry', '2dsphere')])
     db.stations.create_index([('name', 'text')])
