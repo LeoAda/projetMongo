@@ -2,7 +2,7 @@
 name: Create a branch link to a new issue
 on:
   issues:
-    types: [ assigned ]
+    status: [ In progress ]
 
 jobs:
   create_issue_branch_job:
