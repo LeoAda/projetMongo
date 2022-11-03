@@ -75,7 +75,7 @@ velo_lille_to_insert = [
 
 velo_paris_to_insert = [
     {
-        '_id': int(elem.get('fields', {}).get('stationcode')),
+        '_id': int(elem.get('fields', {}).get('stationcode').replace('_relais', 0)),
         'name': elem.get('fields', {}).get('name', '').title(),
         'geometry': elem.get('geometry'),
         'size': elem.get('fields', {}).get('capacity'),
