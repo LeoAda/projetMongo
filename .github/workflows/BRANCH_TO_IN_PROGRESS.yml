@@ -10,5 +10,5 @@ jobs:
       - uses: alex-page/github-project-automation-plus@v0.8.1
         with:
           project: Projet Mongo Backlog
-          column: In Progress
+          column: In progress
           repo-token: ${{ secrets.ACCESS_TOKEN }}
