@@ -72,6 +72,17 @@ def get_stations_by_name(name):
     }).sort("score")
     return list(stations)
 
+#Return function around a position
+def get_stations_around(lat, lng, radius):
+    stations = db.stations.find({
+        'geometry': {
+            '$geoWithin': {
+                '$centerSphere': [[lng, lat], radius / 6378.1]
+            }
+        }
+    })
+    return list(stations)
+
 
 while True:
     print('update')
@@ -98,4 +109,6 @@ while True:
     print(get_nearest_station(50.626457, 3.068455)) # Jb lebas
     print(get_stations_by_name("quai")) # Quai du wault et quai 22
 
+    print(get_stations_around(50.626457, 3.068455, 1)) # All stations around 1km
+    print(len(get_stations_around(50.626457, 3.068455, 1))) # All stations around 1km
     time.sleep(10)
