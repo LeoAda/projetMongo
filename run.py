@@ -46,7 +46,11 @@ velo_lille_to_insert = [
         '_id': elem.get('fields', {}).get('libelle'),
         'name': elem.get('fields', {}).get('nom', '').title(),
         'geometry': elem.get('geometry'),
-        'size': elem.get('fields', {}).get('nbvelosdispo') + elem.get('fields', {}).get('nbplacesdispo'),
+        'size': {
+            'size_total': elem.get('fields', {}).get('nbvelosdispo') + elem.get('fields', {}).get('nbplacesdispo'),
+            'size_bike_available': elem.get('fields', {}).get('nbvelosdispo'),
+            'size_dock_free': elem.get('fields', {}).get('nbplacesdispo')
+        },
         'source': {
             'dataset': 'Lille',
             'id_ext': elem.get('fields', {}).get('libelle')
