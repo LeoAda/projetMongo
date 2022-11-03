@@ -4,11 +4,12 @@ on:
     types:
       - assigned
 jobs:
-  automate-project-columns:
+  add-to-project:
+    name: Move card to In Progress
     runs-on: ubuntu-latest
     steps:
-      - uses: alex-page/github-project-automation-plus@v0.8.1
+      - uses: actions/add-to-project@RELEASE_VERSION
         with:
-          project: Projet Mongo Backlog
-          column: In progress
-          repo-token: ${{ secrets.ACCESS_TOKEN }}
+          project-url: https://github.com/users/LeoAda/projects/1
+          github-token: ${{ secrets.ACCESS_TOKEN }}
+          labeled: In Progress
