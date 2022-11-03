@@ -4,12 +4,11 @@ on:
     types:
       - assigned
 jobs:
-  add-to-project:
-    name: Move card to In Progress
+  move-assigned-card:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/add-to-project@v0.3.0
+      - uses: alex-page/github-project-automation-plus@5bcba1c1c091a222584d10913e5c060d32c44044
         with:
-          project-url: https://github.com/users/LeoAda/projects/1
-          github-token: ${{ secrets.ACCESS_TOKEN }}
-          labeled: In Progress
+          project: Backlog
+          column: In Progress
+          repo-token: ${{ secrets.ACCESS_TOKEN }}
