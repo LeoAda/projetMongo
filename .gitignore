@@ -2,3 +2,6 @@
 .idea/
 venv/
 .env
+velo_lille.json
+velo_paris.json
+velo_lyon.json
