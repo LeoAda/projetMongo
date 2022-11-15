@@ -1,3 +1,5 @@
+from datetime import datetime
+
 from pymongo.mongo_client import MongoClient
 from pymongo.server_api import ServerApi
 import requests
@@ -156,6 +158,23 @@ def get_stations_by_name(name):
     }).sort("score")
     return list(stations)
 
+#return all datas collection
+def get_bike_available():
+    stations = list(db.datas.find())
+    #filter station to get only station with a date within 18 and 19hours
+    stations = [station for station in stations if station['date'].hour in [18, 19]]
+    #filter to keep only the most recent date
+    stations = [max([station for station in stations if station['station_id'] == station_id], key=lambda x: x['date']) for station_id in set([station['station_id'] for station in stations])]
+    #filter to keep only station with at least 1 bike_available
+    stations = [station for station in stations if station['bike_available'] > 0]
+    #filter to keep only station with at least 1 stand_available
+    stations = [station for station in stations if station['stand_available'] > 0]
+    #filter to keep only station with a ratio of available bikes to available stands < 0.2
+    stations = [station for station in stations if station['bike_available'] / station['stand_available'] < 0.2]
+    return stations
+
+
+
 while True:
     print('update')
 
@@ -211,14 +230,16 @@ while True:
 
     datas = datas_velo_lille_update + datas_velo_paris_update + datas_velo_lyon_update + datas_velo_rennes_update
 
-    for data in datas:
-        db.datas.update_one({'date': data["date"], "station_id": data["station_id"]}, {"$set": data}, upsert=True)
+    #for data in datas:
+    #    db.datas.update_one({'date': data["date"], "station_id": data["station_id"]}, {"$set": data}, upsert=True)
 
     # Index needed for geoNear and text search
-    db.stations.create_index([('geometry', '2dsphere')])
-    db.stations.create_index([('name', 'text')])
+    #db.stations.create_index([('geometry', '2dsphere')])
+    #db.stations.create_index([('name', 'text')])
 
     print(get_nearest_station(50.626457, 3.068455)) # Jb lebas
     print(get_stations_by_name("quai")) # Quai du wault et quai 22
-
+    lis = get_bike_available()
+    for i in lis:
+        print(i)
     time.sleep(10)
