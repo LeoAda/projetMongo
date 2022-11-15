@@ -18,9 +18,8 @@
     ```
 3. Add following value to .env file for MongoDB Atlas
     ```sh
-    MONGO_USERNAME = ""
-    MONGO_PASSWORD = ""
-    MONGO_CLUSTER_NAME = ""
-    MONGO_DATABASE_NAME = ""
+    MONGO_USERNAME = juniauser
+    MONGO_PASSWORD = juniamdp
+    MONGO_CLUSTER_NAME = cluster
+    MONGO_DATABASE_NAME = fpruq9w
     ```
-4. 
