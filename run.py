@@ -156,13 +156,13 @@ def get_stations_by_name(name):
     }).sort("score")
     return list(stations)
 
-def update_stations_name(name,new_name):
+def update_stations_name(name, new_name):
     db.stations.update_one({'name': name}, { "$set": { 'name': new_name } })
 
-def update_stations_size(name,new_size):
+def update_stations_size(name, new_size):
     db.stations.update_one({'name': name}, { "$set": { 'size': new_size } })
 
-def update_stations_tpe(name,new_tpe):
+def update_stations_tpe(name, new_tpe):
     db.stations.update_one({'name': name}, { "$set": { 'tpe': new_tpe } })
 
 def delete_stations(name):
@@ -264,14 +264,14 @@ while True:
         for elem in velo_rennes
     ]
 
-    #datas = datas_velo_lille_update + datas_velo_paris_update + datas_velo_lyon_update + datas_velo_rennes_update
+    datas = datas_velo_lille_update + datas_velo_paris_update + datas_velo_lyon_update + datas_velo_rennes_update
 
-    #for data in datas:
-    #    db.datas.update_one({'date': data["date"], "station_id": data["station_id"]}, {"$set": data}, upsert=True)
+    for data in datas:
+        db.datas.update_one({'date': data["date"], "station_id": data["station_id"]}, {"$set": data}, upsert=True)
 
-    # Index needed for geoNear and text search
-    #db.stations.create_index([('geometry', '2dsphere')])
-    #db.stations.create_index([('name', 'text')])
+    #Index needed for geoNear and text search
+    db.stations.create_index([('geometry', '2dsphere')])
+    db.stations.create_index([('name', 'text')])
 
     print(get_nearest_station(50.626457, 3.068455)) # Jb lebas
     print(get_stations_by_name("quai")) # Quai du wault et quai 22
