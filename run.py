@@ -26,6 +26,7 @@ URL_API_LILLE = "https://opendata.lillemetropole.fr/api/records/1.0/search/?data
 URL_API_LYON = "https://download.data.grandlyon.com/ws/rdata/jcd_jcdecaux.jcdvelov/all.json?maxfeatures=-1&start=1"
 URL_API_RENNES = "https://data.rennesmetropole.fr/api/records/1.0/search/?dataset=etat-des-stations-le-velo-star-en-temps-reel&q=&rows=-1&facet=nom&facet=etat&facet=nombreemplacementsactuels&facet=nombreemplacementsdisponibles&facet=nombrevelosdisponibles"
 
+# Get self-services Bicycle Stations (geolocations, size, name, tpe, available): Lille, Lyon, Paris and Rennes
 
 def get_velo(url):
     response = requests.request("GET", url)
@@ -36,26 +37,6 @@ velo_lille = get_velo(URL_API_LILLE)
 velo_paris = get_velo(URL_API_PARIS)
 velo_lyon = get_velo(URL_API_LYON)
 velo_rennes = get_velo(URL_API_RENNES)
-
-def get_json_file():
-    json_velo_lille = json.dumps(velo_lille)
-    json_velo_paris = json.dumps(velo_paris)
-    json_velo_lyon = json.dumps(velo_lyon)
-    json_velo_rennes = json.dumps(velo_rennes)
-
-    with open('velo_lille.json', 'w') as outfile:
-        outfile.write(json_velo_lille)
-
-    with open('velo_paris.json', 'w') as outfile:
-        outfile.write(json_velo_paris)
-
-    with open('velo_lyon.json', 'w') as outfile:
-        outfile.write(json_velo_lyon)
-    
-    with open('velo_rennes.json', 'w') as outfile:
-        outfile.write(json_velo_rennes)
-
-# get_json_file()
 
 # ==================== LILLE ====================
 
@@ -133,91 +114,9 @@ try:
 except:
     pass
 
-#Return the closest station from a position
-def get_nearest_station(lat, lng, nb_stations=1):
-    stations = db.stations.find({
-        'geometry': {
-            '$near': {
-                '$geometry': {
-                    'type': 'Point',
-                    'coordinates': [lng, lat]
-                }
-            }
-        }
-    })
-    return stations[nb_stations]
+# Worker who refresh and store live data for a city (history data)
 
-#Return sorted list of stations by score from a name
-def get_stations_by_name(name):
-    stations = db.stations.find({
-        "$text": {"$search": name}
-    }, {
-        "score": {"$meta": "textScore"}
-    }).sort("score")
-    return list(stations)
-
-def update_stations_name(name, new_name):
-    db.stations.update_one({'name': name}, { "$set": { 'name': new_name } })
-
-def update_stations_size(name, new_size):
-    db.stations.update_one({'name': name}, { "$set": { 'size': new_size } })
-
-def update_stations_tpe(name, new_tpe):
-    db.stations.update_one({'name': name}, { "$set": { 'tpe': new_tpe } })
-
-def delete_stations(name):
-    db.stations.delete_one({'name': name})
-
-#return all datas collection
-def get_bike_available():
-    stations = list(db.datas.find())
-    #filter station to get only station with a date within 18 and 19hours
-    stations = [station for station in stations if station['date'].hour in [18, 19]]
-    #filter to keep only the most recent date
-    stations = [max([station for station in stations if station['station_id'] == station_id], key=lambda x: x['date']) for station_id in set([station['station_id'] for station in stations])]
-    #filter to keep only station with at least 1 bike_available
-    stations = [station for station in stations if station['bike_available'] > 0]
-    #filter to keep only station with at least 1 stand_available
-    stations = [station for station in stations if station['stand_available'] > 0]
-    #filter to keep only station with a ratio of available bikes to available stands < 0.2
-    stations = [station for station in stations if station['bike_available'] / station['stand_available'] < 0.2]
-    return stations
-
-#Return all stations available from a list of stations
-def get_available_stations(stations):
-    available_stations = []
-    for station in stations:
-        if db.datas.find({'station_id': station['_id']}).sort('date', -1).limit(1)[0]['status']:
-            available_stations.append(station)
-    return available_stations
-
-#Return function around a position
-def get_stations_around(lat, lng, radius):
-    stations = db.stations.find({
-        'geometry': {
-            '$geoWithin': {
-                '$centerSphere': [[lng, lat], radius / 6378.1]
-            }
-        }
-    })
-    return list(stations)
-
-
-def deactivate_stations(stations):
-    deactivate_stations = []
-    for station in stations:
-        if len(get_available_stations([station])) == 1:
-            db.datas.insert_one({
-                "bike_available": 0,
-                "stand_available": 0,
-                "date": datetime.now(),
-                "station_id": station['_id'],
-                "status": False
-            })
-            deactivate_stations.append(station)
-    return deactivate_stations
-
-while True:
+def refresh_worker():
     velo_lille = get_velo(URL_API_LILLE)
     velo_paris = get_velo(URL_API_PARIS)
     velo_lyon = get_velo(URL_API_LYON)
@@ -273,17 +172,132 @@ while True:
     db.stations.create_index([('geometry', '2dsphere')])
     db.stations.create_index([('name', 'text')])
 
-    print(get_nearest_station(50.626457, 3.068455)) # Jb lebas
-    print(get_stations_by_name("quai")) # Quai du wault et quai 22
+# ================================
+# *------- Client program -------*
+# ================================
 
-    #update_stations_name("Charonne - Robert Et Sonia Delauney","Charonne")
-    #update_stations_size("Charonne",3)
-    #update_stations_tpe("Charonne", False)
+#Return the closest station from a position
+def get_nearest_stations(lat, lng, nb_stations=1):
+    stations = db.stations.find({
+        'geometry': {
+            '$near': {
+                '$geometry': {
+                    'type': 'Point',
+                    'coordinates': [lng, lat]
+                }
+            }
+        }
+    })
+    return stations[:nb_stations]
 
-    #delete_stations("Mairie Du 12Ème")
-    lis = get_bike_available()
-    for i in lis:
-        print(i)
+#Return all stations available from a list of stations
+def get_available_stations(stations):
+    available_stations = []
+    for station in stations:
+        if db.datas.find({'station_id': station['_id']}).sort('date', -1).limit(1)[0]['status']:
+            available_stations.append(station)
+    return available_stations
+
+def get_nearest_available_station(lat, lng, nb_stations=1):
+    stations = get_nearest_stations(lat, lng, nb_stations)
+    return get_available_stations(stations)
+
+# ================================
+# *----- Business program -------*
+# ================================
+
+#Return sorted list of stations by score of similarity from a name
+def get_stations_by_name(name):
+    stations = db.stations.find({
+        "$text": {"$search": name}
+    }, {
+        "score": {"$meta": "textScore"}
+    }).sort("score")
+    return list(stations)
+
+def update_stations_name(name, new_name):
+    db.stations.update_one({'name': name}, { "$set": { 'name': new_name } })
+
+def update_stations_size(name, new_size):
+    db.stations.update_one({'name': name}, { "$set": { 'size': new_size } })
+
+def update_stations_tpe(name, new_tpe):
+    db.stations.update_one({'name': name}, { "$set": { 'tpe': new_tpe } })
+
+def delete_stations(name):
+    db.stations.delete_one({'name': name})
+
+#Return function around a position
+def get_stations_around(lat, lng, radius):
+    stations = db.stations.find({
+        'geometry': {
+            '$geoWithin': {
+                '$centerSphere': [[lng, lat], radius / 6378.1]
+            }
+        }
+    })
+    return list(stations)
+
+def deactivate_stations(stations):
+    deactivate_stations = []
+    for station in stations:
+        if len(get_available_stations([station])) == 1:
+            db.datas.insert_one({
+                "bike_available": 0,
+                "stand_available": 0,
+                "date": datetime.now(),
+                "station_id": station['_id'],
+                "status": False
+            })
+            deactivate_stations.append(station)
+    return deactivate_stations
+
+def desactivate_stations_around(lat, lng, radius):
+    stations = get_stations_around(lat, lng, radius)
+    return deactivate_stations(stations)
+
+#return all datas collection
+def get_available():
+    stations = list(db.datas.find())
+    #filter station to get only station with a date within 18 and 19hours
+    stations = [station for station in stations if station['date'].hour in [18, 19]]
+    #filter to keep only the most recent date
+    stations = [max([station for station in stations if station['station_id'] == station_id], key=lambda x: x['date']) for station_id in set([station['station_id'] for station in stations])]
+    #filter to keep only station with at least 1 bike_available
+    stations = [station for station in stations if station['bike_available'] > 0]
+    #filter to keep only station with at least 1 stand_available
+    stations = [station for station in stations if station['stand_available'] > 0]
+    #filter to keep only station with a ratio of available bikes to available stands < 0.2
+    stations = [station for station in stations if station['bike_available'] / station['stand_available'] < 0.2]
+    return stations
+
+while True:
+    refresh_worker()
+
+    print("5 stations valides les plus proches de Jb Lebas")
+    print(get_nearest_available_station(50.626457, 3.068455, 5))
+
+    print("Recherche d'une station avec comme mot clé 'Quai'")
+    print(get_stations_by_name("quai"))
+
+    print("Mise à jour du nom de la station 'Charonne - Robert Et Sonia Delauney' en 'Charonne'")
+    update_stations_name("Charonne - Robert Et Sonia Delauney","Charonne")
+
+    print("Mise à jour de la taille de la station 'Charonne' a 3")
+    update_stations_size("Charonne",3)
+
+    print("Mise à jour de la présence de tpe de la station 'Charonne' a False")
+    update_stations_tpe("Charonne", False)
+
+    print("Suppression de la station 'Mairie Du 12Ème'")
+    delete_stations("Mairie Du 12Ème")
+
+    print("Désactivation des stations dans un rayon de 5km autour du point 50.626457, 3.068455 représentant la station 'Jb Lebas'")
+    desactivate_stations_around(50.626457, 3.068455, 5)
+
+    print("Toutes les stations avec un ratio de vélos disponibles sur places disponibles < 0.2 de 18h à 19h du lundi au vendredi")
+    for station in get_available():
+        print(station)
         
     time.sleep(10)
     break
