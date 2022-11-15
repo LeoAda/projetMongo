@@ -131,7 +131,7 @@ except:
     pass
 
 #Return the closest station from a position
-def get_nearest_station(lat, lng):
+def get_nearest_station(lat, lng, nb_stations=1):
     stations = db.stations.find({
         'geometry': {
             '$near': {
@@ -142,7 +142,7 @@ def get_nearest_station(lat, lng):
             }
         }
     })
-    return stations[0]
+    return stations[nb_stations]
 
 #Return sorted list of stations by score from a name
 def get_stations_by_name(name):
