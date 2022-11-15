@@ -4,6 +4,7 @@ import requests
 import json
 import dateutil.parser
 import time
+from datetime import datetime
 
 import os
 from dotenv import load_dotenv
@@ -153,6 +154,14 @@ def get_stations_by_name(name):
     }).sort("score")
     return list(stations)
 
+#Return all stations available from a list of stations
+def get_available_stations(stations):
+    available_stations = []
+    for station in stations:
+        if db.datas.find({'station_id': station['_id']}).sort('date', -1).limit(1)[0]['status']:
+            available_stations.append(station)
+    return available_stations
+
 #Return function around a position
 def get_stations_around(lat, lng, radius):
     stations = db.stations.find({
@@ -164,18 +173,25 @@ def get_stations_around(lat, lng, radius):
     })
     return list(stations)
 
+def deactivate_stations(stations):
+    deactivate_stations = []
+    for station in stations:
+        if len(get_available_stations([station])) == 1:
+            db.datas.insert_one({
+                "bike_available": 0,
+                "stand_available": 0,
+                "date": datetime.now(),
+                "station_id": station['_id'],
+                "status": False
+            })
+            deactivate_stations.append(station)
+    return deactivate_stations
 
 while True:
-    print('update')
-    print("lille")
     velo_lille = get_velo(URL_API_LILLE)
-    print("paris")
     velo_paris = get_velo(URL_API_PARIS)
-    print("lyon")
     velo_lyon = get_velo(URL_API_LYON)
-    print("rennes")
     velo_rennes = get_velo(URL_API_RENNES)
-    print("lille")
     datas_velo_lille_update = [
         {
             "bike_available": elem.get('fields', {}).get('nbvelosdispo'),
@@ -186,7 +202,6 @@ while True:
         }
         for elem in velo_lille
     ]
-    print("paris")
     datas_velo_paris_update = [
         {
             "bike_available": elem.get('fields', {}).get('numbikesavailable'),
@@ -198,7 +213,6 @@ while True:
         }
         for elem in velo_paris
     ]
-    print("lyon")
     datas_velo_lyon_update = [
         {
             "bike_available": elem.get('available_bikes'),
@@ -209,7 +223,6 @@ while True:
         }
         for elem in velo_lyon
     ]
-    print("rennes")
     datas_velo_rennes_update = [
         {
             "bike_available": elem.get('fields', {}).get('nombrevelosdisponibles'),
@@ -222,17 +235,11 @@ while True:
     ]
 
     datas = datas_velo_lille_update + datas_velo_paris_update + datas_velo_lyon_update + datas_velo_rennes_update
-    print("update ")
     for data in datas:
         db.datas.update_one({'date': data["date"], "station_id": data["station_id"]}, {"$set": data}, upsert=True)
-    print("fonction leo pu")
     # Index needed for geoNear and text search
     db.stations.create_index([('geometry', '2dsphere')])
     db.stations.create_index([('name', 'text')])
 
-    print(get_nearest_station(50.626457, 3.068455)) # Jb lebas
-    print(get_stations_by_name("quai")) # Quai du wault et quai 22
-
-    print(get_stations_around(50.626457, 3.068455, 1)) # All stations around 1km
-    print(len(get_stations_around(50.626457, 3.068455, 1))) # All stations around 1km
     time.sleep(10)
+    break
