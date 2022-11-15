@@ -156,6 +156,18 @@ def get_stations_by_name(name):
     }).sort("score")
     return list(stations)
 
+def update_stations_name(name,new_name):
+    db.stations.update_one({'name': name}, { "$set": { 'name': new_name } })
+
+def update_stations_size(name,new_size):
+    db.stations.update_one({'name': name}, { "$set": { 'size': new_size } })
+
+def update_stations_tpe(name,new_tpe):
+    db.stations.update_one({'name': name}, { "$set": { 'tpe': new_tpe } })
+
+def delete_stations(name):
+    db.stations.delete_one({'name': name})
+
 #return all datas collection
 def get_bike_available():
     stations = list(db.datas.find())
@@ -170,11 +182,6 @@ def get_bike_available():
     #filter to keep only station with a ratio of available bikes to available stands < 0.2
     stations = [station for station in stations if station['bike_available'] / station['stand_available'] < 0.2]
     return stations
-
-
-
-while True:
-    print('update')
 
 #Return all stations available from a list of stations
 def get_available_stations(stations):
@@ -257,10 +264,10 @@ while True:
         for elem in velo_rennes
     ]
 
-    datas = datas_velo_lille_update + datas_velo_paris_update + datas_velo_lyon_update + datas_velo_rennes_update
+    #datas = datas_velo_lille_update + datas_velo_paris_update + datas_velo_lyon_update + datas_velo_rennes_update
 
-    for data in datas:
-        db.datas.update_one({'date': data["date"], "station_id": data["station_id"]}, {"$set": data}, upsert=True)
+    #for data in datas:
+    #    db.datas.update_one({'date': data["date"], "station_id": data["station_id"]}, {"$set": data}, upsert=True)
 
     # Index needed for geoNear and text search
     #db.stations.create_index([('geometry', '2dsphere')])
@@ -268,6 +275,12 @@ while True:
 
     print(get_nearest_station(50.626457, 3.068455)) # Jb lebas
     print(get_stations_by_name("quai")) # Quai du wault et quai 22
+
+    #update_stations_name("Charonne - Robert Et Sonia Delauney","Charonne")
+    #update_stations_size("Charonne",3)
+    #update_stations_tpe("Charonne", False)
+
+    #delete_stations("Mairie Du 12Ème")
     lis = get_bike_available()
     for i in lis:
         print(i)
