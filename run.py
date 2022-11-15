@@ -1,9 +1,12 @@
+from datetime import datetime
+
 from pymongo.mongo_client import MongoClient
 from pymongo.server_api import ServerApi
 import requests
 import json
 import dateutil.parser
 import time
+from datetime import datetime
 
 import os
 from dotenv import load_dotenv
@@ -23,9 +26,6 @@ URL_API_LILLE = "https://opendata.lillemetropole.fr/api/records/1.0/search/?data
 URL_API_LYON = "https://download.data.grandlyon.com/ws/rdata/jcd_jcdecaux.jcdvelov/all.json?maxfeatures=-1&start=1"
 URL_API_RENNES = "https://data.rennesmetropole.fr/api/records/1.0/search/?dataset=etat-des-stations-le-velo-star-en-temps-reel&q=&rows=-1&facet=nom&facet=etat&facet=nombreemplacementsactuels&facet=nombreemplacementsdisponibles&facet=nombrevelosdisponibles"
 
-# client = MongoClient("mongodb+srv://user:password@yyyyyyyyyy.xxxxxxxxx.mongodb.net/?retryWrites=true&w=majority", server_api=ServerApi('1'))
-
-# db = client.vls
 
 def get_velo(url):
     response = requests.request("GET", url)
@@ -78,13 +78,13 @@ velo_lille_to_insert = [
 
 velo_paris_to_insert = [
     {
-        '_id': elem.get('fields', {}).get('stationcode'),
+        '_id': int(elem.get('fields', {}).get('stationcode').replace('_relais', "0")),
         'name': elem.get('fields', {}).get('name', '').title(),
         'geometry': elem.get('geometry'),
         'size': elem.get('fields', {}).get('capacity'),
         'source': {
             'dataset': 'Paris',
-            'id_ext': elem.get('fields', {}).get('stationcode')
+            'id_ext': int(elem.get('fields', {}).get('stationcode').replace('_relais', "0"))
         },
         'tpe': elem.get('fields', {}).get('is_renting') == 'OUI',
     }
@@ -99,7 +99,7 @@ velo_lyon_to_insert = [
         'name': elem.get('name', '').title(),
         'geometry': {
             'type': 'Point',
-            'coordinates': [elem.get('lng'), elem.get('lat')]
+            'coordinates': [float(elem.get('lng')), float(elem.get('lat'))]
         },
         'size': elem.get('bike_stands'),
         'source': {
@@ -115,7 +115,7 @@ velo_lyon_to_insert = [
 
 velo_rennes_to_insert = [
     {
-        '_id': elem.get('fields', {}).get('idstation'),
+        '_id': int(elem.get('fields', {}).get('idstation')),
         'name': elem.get('fields', {}).get('nom', '').title(),
         'geometry': elem.get('geometry'),
         'size': elem.get('fields', {}).get('nombreemplacementsactuels'),
@@ -134,7 +134,7 @@ except:
     pass
 
 #Return the closest station from a position
-def get_nearest_station(lat, lng):
+def get_nearest_station(lat, lng, nb_stations=1):
     stations = db.stations.find({
         'geometry': {
             '$near': {
@@ -145,7 +145,7 @@ def get_nearest_station(lat, lng):
             }
         }
     })
-    return stations[0]
+    return stations[nb_stations]
 
 #Return sorted list of stations by score from a name
 def get_stations_by_name(name):
@@ -168,15 +168,60 @@ def update_stations_tpe(name,new_tpe):
 def delete_stations(name):
     db.stations.delete_one({'name': name})
 
+#return all datas collection
+def get_bike_available():
+    stations = list(db.datas.find())
+    #filter station to get only station with a date within 18 and 19hours
+    stations = [station for station in stations if station['date'].hour in [18, 19]]
+    #filter to keep only the most recent date
+    stations = [max([station for station in stations if station['station_id'] == station_id], key=lambda x: x['date']) for station_id in set([station['station_id'] for station in stations])]
+    #filter to keep only station with at least 1 bike_available
+    stations = [station for station in stations if station['bike_available'] > 0]
+    #filter to keep only station with at least 1 stand_available
+    stations = [station for station in stations if station['stand_available'] > 0]
+    #filter to keep only station with a ratio of available bikes to available stands < 0.2
+    stations = [station for station in stations if station['bike_available'] / station['stand_available'] < 0.2]
+    return stations
+
+#Return all stations available from a list of stations
+def get_available_stations(stations):
+    available_stations = []
+    for station in stations:
+        if db.datas.find({'station_id': station['_id']}).sort('date', -1).limit(1)[0]['status']:
+            available_stations.append(station)
+    return available_stations
+
+#Return function around a position
+def get_stations_around(lat, lng, radius):
+    stations = db.stations.find({
+        'geometry': {
+            '$geoWithin': {
+                '$centerSphere': [[lng, lat], radius / 6378.1]
+            }
+        }
+    })
+    return list(stations)
+
+
+def deactivate_stations(stations):
+    deactivate_stations = []
+    for station in stations:
+        if len(get_available_stations([station])) == 1:
+            db.datas.insert_one({
+                "bike_available": 0,
+                "stand_available": 0,
+                "date": datetime.now(),
+                "station_id": station['_id'],
+                "status": False
+            })
+            deactivate_stations.append(station)
+    return deactivate_stations
 
 while True:
-    print('update')
-
     velo_lille = get_velo(URL_API_LILLE)
     velo_paris = get_velo(URL_API_PARIS)
     velo_lyon = get_velo(URL_API_LYON)
     velo_rennes = get_velo(URL_API_RENNES)
-
     datas_velo_lille_update = [
         {
             "bike_available": elem.get('fields', {}).get('nbvelosdispo'),
@@ -187,19 +232,17 @@ while True:
         }
         for elem in velo_lille
     ]
-
     datas_velo_paris_update = [
         {
             "bike_available": elem.get('fields', {}).get('numbikesavailable'),
             "stand_available": elem.get('fields', {}).get('numdocksavailable'),
             "date": dateutil.parser.parse(elem.get('fields', {}).get('duedate')),
-            "station_id": elem.get('fields', {}).get('stationcode'),
+            "station_id": int(elem.get('fields', {}).get('stationcode').replace('_relais', "0")),
             'status': not ((elem.get('fields', {}).get('numbikesavailable') + elem.get('fields', {}).get('numdocksavailable')) == 0 
                 or elem.get('fields', {}).get('is_installed') == "NON")
         }
         for elem in velo_paris
     ]
-
     datas_velo_lyon_update = [
         {
             "bike_available": elem.get('available_bikes'),
@@ -210,13 +253,12 @@ while True:
         }
         for elem in velo_lyon
     ]
-
     datas_velo_rennes_update = [
         {
             "bike_available": elem.get('fields', {}).get('nombrevelosdisponibles'),
             "stand_available": elem.get('fields', {}).get('nombreemplacementsdisponibles'),
             "date": dateutil.parser.parse(elem.get('fields', {}).get('lastupdate')),
-            "station_id": elem.get('fields', {}).get('idstation'),
+            "station_id": int(elem.get('fields', {}).get('idstation')),
             'status': elem.get('fields', {}).get('etat') == 'En fonctionnement'
         }
         for elem in velo_rennes
@@ -239,4 +281,9 @@ while True:
     #update_stations_tpe("Charonne", False)
 
     #delete_stations("Mairie Du 12Ème")
+    lis = get_bike_available()
+    for i in lis:
+        print(i)
+        
     time.sleep(10)
+    break
