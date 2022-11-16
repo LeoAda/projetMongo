@@ -300,4 +300,3 @@ while True:
         print(station)
         
     time.sleep(10)
-    break
